@@ -31,8 +31,8 @@ jobs:
         run: Xvfb :99 &
       - name: Add Cart
         env:
-          DISPLAY: :99
-          TZ: Asia/Tokyo
+          DISPLAY: ":99"
+          TZ: "Asia/Tokyo"
           YAHOO_ID: ${{ secrets.YAHOO_ID }}
           YAHOO_PASSWORD: ${{ secrets.YAHOO_PASSWORD }}
           LOHACO_ITEM_ID: ${{ github.event.inputs.itemId }}
