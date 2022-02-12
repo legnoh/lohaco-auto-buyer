@@ -14,18 +14,23 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: nanasess/setup-chromedriver@v1.0.5
+      - name: Tnstall pipenv
+        run: pipx install pipenv
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          cache: pipenv
       - name: Install Japanese Fonts
         run: |
           sudo apt install -y fonts-ipafont
           fc-cache -fv
           fc-list | grep -i ipa
-      - run: pipx install pipenv
-      - uses: actions/setup-python@v2
-        with:
-          cache: 'pipenv'
-      - run: pipenv install
-      - run: pipenv run add_cart
+      - name: Install dependencies
+        run: pipenv install
+      - name: Add Cart
         env:
           YAHOO_ID: ${{ secrets.YAHOO_ID }}
           YAHOO_PASSWORD: ${{ secrets.YAHOO_PASSWORD }}
           LOHACO_ITEM_ID: ${{ github.event.inputs.itemId }}
+        run: pipenv run add_cart
