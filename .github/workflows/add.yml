@@ -18,9 +18,9 @@ jobs:
         run: pipx install pipenv
       - name: Setup Python
         uses: actions/setup-python@v2
-        with:
-          python-version: '3.9'
-          cache: pipenv
+        # with:
+          # python-version: '3.9'
+          # cache: pipenv
       - name: Install Japanese Fonts
         run: |
           sudo apt install -y fonts-ipafont
