@@ -1,0 +1,435 @@
+# 基本的には各カテゴリ先頭の商品を優先。ない場合のみ次の候補を買う。
+
+stores:
+  - id: y-lohaco
+    items:
+      
+      # 食品
+      - product_name: 米
+        candidates:
+        - name: 北海道産 ゆめぴりか 2kg
+          id: "3460926"
+        - name: 北海道産 ゆめぴりか 5kg
+          id: "3460917"
+        - name: 秋田県産 あきたこまち 5kg
+          id: "u525106"
+      # - product_name: パン
+      #   candidates:
+      #   - name: BASE BREAD メープル(50袋)
+      #     id: "https://shop.basefood.co.jp/products/basebread/maple"
+      # - product_name: 宅食
+      #   candidates:
+      #   - name: Nosh(1週間10食・ランダム)
+      #     id: "https://nosh.jp"
+      - product_name: ティーバッグ(麦茶/冷)
+        candidates:
+        - name: 伊藤園 香り薫るむぎ茶 ティーバッグ
+          id: "1649214"
+        - name: 金沢大地 国産有機六条大麦茶ティーバッグ
+          id: "j834703"
+      - product_name: ティーバッグ(紅茶/熱)
+        candidates:
+        - name: 日東紅茶 カフェインレス アールグレイ(20バッグ)
+          id: "6124570"
+        - name: 日東紅茶 カフェインレス オリジナルブレンド(20バッグ)
+          id: "x909649"
+      - product_name: インスタントコーヒー(熱)
+        candidates:
+        - name: マウントハーゲン オーガニック カフェインレスコーヒー
+          id: "8951284"
+        - name: ネスカフェ ゴールドブレンド カフェインレス
+          id: "9310793"
+      - product_name: 野菜ジュース
+        candidates:
+        - name: 伊藤園 栄養強化型 1日分の野菜 740g(3本)
+          id: "ar85257"
+        - name: 伊藤園 1日分の野菜 900g 1セット(3本)
+          id: "ar85258"
+        - name: カゴメ 野菜一日これ一杯(3本)
+          id: "9621873"
+      
+      # キッチン用品
+      - product_name: 食洗機用洗剤
+        candidates:
+        - name: P&G ジョイ ジェルタブ3D(超特大)
+          id: "p400397"
+        - name: P&G ジョイ ジェルタブ3D(特大)
+          id: "p400396"
+      - product_name: 食器用洗剤
+        candidates:
+        - name: P&G ジョイ ミラクルクリーン泡スプレー(付け替え)
+          id: "p633868"
+        - name: P&G ジョイ ミラクルクリーン泡スプレー(本体)
+          id: "p289401"
+        - name: P&G ジョイ ミラクルクリーン泡スプレー フレッシュシトラス(本体)
+          id: "p289402"
+      - product_name: スポンジ(食器用)
+        candidates:
+        - name: 3M スコッチブライト 泡立ちゆたか ソフトスポンジ(グレー)
+          id: "x628109"
+        - name: 3M スコッチブライト 泡立ちゆたか ソフトスポンジ(グレー・3個)
+          id: "x628112"
+      - product_name: スポンジ(水筒用)
+        candidates:
+        - name: 3M スコッチブライト 泡立ちゆたか ソフトスポンジ(グレー・本体)
+          id: "x628107"
+      - product_name: スポンジ(シンク用)
+        candidates:
+        - name: 3M スコッチブライト シンク・洗面台用クリーナー
+          id: "P630839"
+      
+      # 医薬品
+      - product_name: 解熱鎮痛薬
+        candidates:
+        - name: ロキソニンSプレミアム 12錠
+          id: "2751750"
+        - name: ロキソニンS 12錠
+          id: "8935039"
+      - product_name: 胃腸薬
+        candidates:
+        - name: 第一三共ヘルスケア 第一三共胃腸薬 グリーン 微粒(20包)
+          id: "8879691"
+        - name: 第一三共ヘルスケア 第一三共胃腸薬 プラス 細粒(12包)
+          id: "8879708"
+      - product_name: 鼻炎薬
+        candidates:
+        - name: アレグラFX 14錠
+          id: "1997808"
+        - name: アレグラFX 28錠
+          id: "1997817"
+      - product_name: 酔い止め薬
+        candidates:
+        - name: アネロン ニスキャップ(6カプセル)
+          id: "9457178"
+        - name: アネロン ニスキャップ(9カプセル)
+          id: "9457196"
+      - product_name: 口内炎用の薬
+        candidates:
+        - name:  第一三共ヘルスケア トラフル錠 24錠
+          id: "8500013"
+      - product_name: 目薬
+        candidates:
+        - name: 参天製薬 サンテメディカル12
+          id: "3617087"
+      - product_name: 冷感シート
+        candidates:
+        - name: 小林製薬 熱さまシート 大人用(16枚入)
+          id: "1662083"
+        - name: ライオン 冷えピタ 大人用(12+4枚入)
+          id: "3169685"
+      - product_name: 絆創膏(大)
+        candidates:
+        - name: バンドエイド キズパワーパッド ジャンボ(3枚)
+          id: "8207297"
+      - product_name: 絆創膏(中)
+        candidates:
+        - name: バンドエイド キズパワーパッド 大きめサイズ(6枚)
+          id: "8158782"
+        - name: バンドエイド キズパワーパッド 大きめサイズ(12枚)
+          id: "1417185"
+      - product_name: 絆創膏(小)
+        candidates:
+        - name: バンドエイド キズパワーパッド スポットタイプ(10枚)
+          id: "9010330"
+      - product_name: メガネのくもり止め
+        candidates:
+        - name: 小林製薬 メガネクリーナふきふき(20包)
+          id: "2840009"
+        - name: 小林製薬 メガネクリーナふきふき(40包)
+          id: "9063638"
+      
+      # 文具
+      # - product_name: メモ帳
+      #   candidates:
+      #   - name: マルマン クロッキーパッド 白クロッキー紙 A5
+      #     id: "https://www.amazon.co.jp/dp/B0746C742B"
+      - product_name: ボールペン(黒)
+        candidates:
+        - name: ゼブラ サラサドライ 0.4mm 黒
+          id: "1979855"
+      - product_name: マジック(黒)
+        candidates:
+        - name: ゼブラ マッキーケア 細字/極細 黒(アスクルオリジナル)
+          id: "wx73979"
+        - name: ゼブラ マッキーケア 細字/極細 黒
+          id: "we86350"
+      - product_name: マジック(赤)
+        candidates:
+        - name: ゼブラ マッキーケア 細字/極細 赤(アスクルオリジナル)
+          id: "j373201"
+      - product_name: 筆ペン
+        candidates:
+        - name: トンボ鉛筆 筆之助 慶弔ツインS(墨色/うす墨) GCD-121
+          id: "8144188"
+        - name: ぺんてる 慶弔サインペン 黒・うす墨 XSESWPD30
+          id: "ae33750"
+      # - product_name: シャープペンシル
+      #   candidates:
+      #   - name: コクヨ 鉛筆シャープ 1.3mm 黒B芯+シャープ替芯 PS-PE113D-1P+PSR-B13-1P
+      #     id: "https://www.amazon.co.jp/dp/B08P5K6CV6/"
+      - product_name: セロテープ
+        candidates:
+        - name: ニチバン セロテープ 15mm x 9m(2巻)
+          id: "p213887"
+        - name: ニチバン セロテープ 18mm x 8m(2巻)
+          id: "p286314"
+      - product_name: ガムテープ
+        candidates:
+        - name: ニチバン 布粘着テープ No.102N 0.3mm厚 50mm x 25m
+          id: "871463"
+      - product_name: 両面テープ
+        candidates:
+        - name: 3M スコッチ 超強力なのにあとからはがせる両面テープ 幅15mm x 3m SRR-15
+          id: "j452116"
+      - product_name: テープのり
+        candidates:
+        - name: コクヨ テープのり ドットライナー(本体・コンパクト)
+          id: "ww84558"
+        - name: アスクル テープのり 10m(3個)
+          id: "5846230"
+      - product_name: 瞬間接着剤
+        candidates:
+        - name: コニシ アロンアルフア プロ用No.5 20g
+          id: "8826212"
+      - product_name: はさみ
+        candidates:
+        - name: プラス フィットカットカーブ フッ素加工・3D刃 ホワイト
+          id: "x424907"
+        - name: プラス フィットカットカーブ フッ素コート ホワイト
+          id: "7885738"
+      - product_name: カッター(小)
+        candidates:
+        - name: オルファ Aプラス 215BS
+          id: "8166837"
+      - product_name: カッター(大)
+        candidates:
+        - name: オルファ ハイパーL型 192B
+          id: "7894657"
+      - product_name: 封筒
+        candidates:
+        - name: ムトウユニパック 透けない封筒 ケント紙 テープ付 長3 〒枠あり(50枚)
+          id: "x192330"
+        - name: ムトウユニパック 透けない封筒 ケント紙 テープ付 長3 〒枠あり(100枚)
+          id: "x192354"
+      
+      # 風呂・コスメ用品
+      - product_name: シャンプー
+        candidates:
+        - name: MARO デオスカルプシャンプー(詰め替え)
+          id: "1849583"
+        - name: MARO デオスカルプシャンプー(本体)
+          id: "1849565"
+      - product_name: トリートメント
+        candidates:
+        - name: MARO デオスカルプトリートメント(詰め替え)
+          id: "1849592"
+        - name: MARO デオスカルプトリートメント(本体)
+          id: "1849636"
+      - product_name: ボディソープ
+        candidates:
+        - name: MARO 全身用クレンジングソープ(詰め替え)
+          id: "1849663"
+        - name: MARO 全身用クレンジングソープ(本体)
+          id: "1849654"
+      - product_name: 洗顔料
+        candidates:
+        - name: ニベアメン フェイスウォッシュ フレッシュ
+          id: "2475835"
+        - name: ニベアメン フェイスウォッシュ モイスト
+          id: "2475844"
+      - product_name: 化粧水
+        candidates:
+        - name: ニベアメン オイルコントロールローション UV
+          id: "u214082"
+      - product_name: 乳液
+        candidates:
+        - name: ニベアメン スキンコンディショナーバーム UV
+          id: "u214087"
+      - product_name: リップクリーム
+        candidates:
+        - name: ニベアメン リップ
+          id: "9821284"
+      - product_name: ハンドソープ
+        candidates:
+        - name: サラヤ ウォシュボン ハーバル薬用泡ハンドソープ 詰め替え用
+          id: "j979588"
+        - name: サラヤ ウォシュボン プライムフォームハンドソープ ハーバルシトラス 詰め替え用
+          id: "e349062"
+        - name: サラヤ ウォシュボン プライムフォームハンドソープ グリーンハーブ 詰め替え用
+          id: "e349061"
+        - name: サラヤ ウォシュボン プライムフォームハンドソープ スイートフローラル 詰め替え用
+          id: "e349063"
+      - product_name: 歯磨き粉
+        candidates:
+        - name: アパガード プレミオ 100g
+          id: "9802510"
+        - name: アパガード プレミオ 50g
+          id: "j979552"
+        - name: アパガード ロイヤル 40g
+          id: "wx74507"
+        - name: アパガード ロイヤル 135g
+          id: "wx74508"
+      # - product_name: 歯ブラシ
+      #   candidates:
+      #   - name: フィリップス ソニッケアー A3 Premium All-in-One HX9093/96
+      #     id: "https://www.philips.co.jp/c-p/HX9093_96/"
+      # - product_name: 舌ブラシ
+      #   candidates:
+      #   - name: フィリップス ソニッケアー A3 Premium All-in-One HX8072/11
+      #     id: "https://www.philips.co.jp/c-p/HX8072_11/"
+      - product_name: 制汗剤
+        candidates:
+        - name: デオナチュレ ソフトストーンW(メントールなし)
+          id: "x343342"
+        - name: デオナチュレ ソフトストーンW
+          id: "x343338"
+      - product_name: 整髪料
+        candidates:
+        - name: GATSBY ムービングラバー エクストリームマット 15g
+          id: "x884045"
+        - name: GATSBY ムービングラバー グランジマット 15g
+          id: "j862602"
+      - product_name: 風呂洗剤
+        candidates:
+        - name: バスマジックリン 泡立ちスプレー SUPERCLEAN 香り残らない 詰め替え
+          id: "x784994"
+        - name: バスマジックリン 泡立ちスプレー SUPERCLEAN 香り残らない 本体
+          id: "2369897"
+      - product_name: ボディタオル
+        candidates:
+        - name: ロハコ ボディタオル やわらかめ
+          id: "x217593"
+      - product_name: シェーバー(替え刃・外)
+        candidates:
+        - name: パナソニック ラムダッシュ 外刃 ES9087
+          id: "8204802"
+      - product_name: シェーバー(替え刃・内)
+        candidates:
+        - name: パナソニック ラムダッシュ 内刃 ES9068
+          id: "8203977"
+      - product_name: エチケットカッター(替え刃)
+        candidates:
+        - name: パナソニック エチケットカッター用替刃 ER9972-K
+          id: "p714574"
+      - product_name: 風呂ブラシ
+        candidates:
+        - name: 3M スコッチブライト バスシャイン すきまブラシ Bー511J
+          id: "ax07841"
+        - name: 激落ち 黒カビくん お風呂(バス用)
+          id: "p174676"
+      - product_name: 風呂スポンジ
+        candidates:
+        - name: 3M スコッチブライト バスシャイン ハンディスポンジロング 取替用
+          id: "ax07836"
+      - product_name: ぞうきん
+        candidates:
+        - name: TENDAI ぞうきん 1パック(10枚入)
+          id: "p010751"
+        - name: TENDAI 未漂白ぞうきん 1パック(10枚入)
+          id: "p010893"
+      - product_name: 手袋(作業用)
+        candidates:
+        - name: アトム 天然ゴム背抜き手袋 タフレッドスリム Lサイズ
+          id: "1634329"
+      - product_name: 手袋(水仕事用)
+        candidates:
+        - name: ショーワグローブ ナイスハンド ミュー Lサイズ バイオレット
+          id: "243653"
+        - name: ショーワグローブ ナイスハンド ミュー Lサイズ グリーン
+          id: "j980775"
+      - product_name: 手袋(簡易保護用)
+        candidates:
+        - name: アスクル 現場のチカラ 品質管理用スムス手袋 Mサイズ 12双入
+          id: "7883466"
+      
+      # 一般日用品
+      - product_name: ゴミ袋
+        candidates:
+        - name: 日本サニパック とって付きゴミ袋 半透明高密度タイプ 30L 20枚入り
+          id: "1478995"
+        - name: 日本技研工業 とって付きゴミ袋 半透明 30L 20枚入り
+          id: "j934473"
+      - product_name: ティッシュ(据置)
+        candidates:
+        - name: 日本製紙クレシア スコッティ 200組(5箱入)
+          id: "2059606"
+        - name: アスクル ティッシュペーパー MOCHA 200組(5箱入)
+          id: "aa76740"
+      - product_name: ティッシュ(ポケット)
+        candidates:
+        - name: 日本製紙クレシア スコッティカシミヤ ポケット(12個)
+          id: "u225108"
+      - product_name: ティッシュ(ウェット)
+        candidates:
+        - name: 日本製紙クレシア スコッティ ウェットティシュー ノンアルコール 携帯用(3個) 
+          id: "x602651"
+        - name: 日本製紙クレシア スコッティ ウェットティシュー ノンアルコール 携帯用(1個) 
+          id: "x602649"
+      # - product_name: ティッシュ(液晶用)
+      #   candidates:
+      #   - name: エレコム ウェットティッシュ 液晶用 50枚入 WC-DP50N4
+      #     id: "https://www.amazon.co.jp/dp/B07Y3FSY7J/"
+      #   - name: エレコム ウェットティッシュ 液晶用 15枚入 WC-DP15PN4
+      #     id: "https://www.amazon.co.jp/dp/B07Y3F494M/"
+      - product_name: 荷造りひも
+        candidates:
+        - name: アスクル 現場のチカラ PP荷造りひも 150m
+          id: "9421012"
+      - product_name: コロコロ(粘着クリーナー)
+        candidates:
+        - name: ニトムズ コロコロ フロアクリン オレンジラインあり 45周(3巻入) 
+          id: "5598801"
+        - name: ニトムズ コロコロ フロアクリン オレンジラインなし 45周(3巻入) 
+          id: "J679596"
+      # - product_name: クリーニングブラシ(電気用品用)
+      #   candidates:
+      #   - name: エレコム クリーニングブラシ KBR-011WH
+      #     id: "https://www.elecom.co.jp/products/KBR-011WH.html"
+
+      # トイレ用品
+      - product_name: トイレットペーパー
+        candidates:
+        - name: 日本製紙クレシア スコッティ フラワーパック 75m 6ロール
+          id: "1752654"
+        - name: 日本製紙クレシア スコッティ フラワーパック 北欧デザイン 75m 6ロール
+          id: "2029993"
+        - name: 日本製紙クレシア スコッティ フラワーパック ナチュラル 75m 4ロール
+          id: "we08086"
+        - name: 日本製紙クレシア スコッティ フラワーパック 50m 6ロール
+          id: "8108172"
+        - name: 日本製紙クレシア クリネックス 45m 8ロール
+          id: "j096727"
+      - product_name: トイレ用ウェットティッシュ
+        candidates:
+        - name: 花王 トイレクイックル エレガントローズの香り(詰め替え)
+          id: "3463202"
+        - name: 花王 トイレクイックル シトラスミントの香り(詰め替え)
+          id: "p113692"
+      - product_name: トイレ用ブラシ
+        candidates:
+        - name: ジョンソン スクラビングバブル 流せるトイレブラシ 付替ブラシ12個入 
+          id: "9576885"
+        - name: ジョンソン スクラビングバブル 流せるトイレブラシ 付替ブラシ24個入 
+          id: "3103567"
+      - product_name: トイレスタンプ
+        candidates:
+        - name: ジョンソン スクラビングバブル トイレスタンプ 消臭成分in クリアジャスミンの香り(2本入)
+          id: "p446922"
+        - name: ジョンソン スクラビングバブル トイレスタンプ 漂白成分プラス ホワイティーシトラスの香り(2本入)
+          id: "9817890"
+        - name: ジョンソン スクラビングバブル トイレスタンプ 贅沢フレグランス アロマティックサボンの香り(2本入)
+          id: "2796519"
+      
+      # その他
+      # - product_name: 静電フィルター(150)
+      #   candidates:
+      #   - name: PRP150静電フィルター トレフィン TF150A-PRP
+      #     id: "https://www.amazon.co.jp/dp/B00DNT84QM/"
+      # - product_name: 静電フィルター(100)
+      #   candidates:
+      #   - name: PRP100静電フィルター トレフィン TF100A-PRP
+      #     id: "https://www.amazon.co.jp/dp/B00DNT84SK/"
+      # - product_name: 
+      #   candidates:
+      #   - name: 
+      #     id: ""
