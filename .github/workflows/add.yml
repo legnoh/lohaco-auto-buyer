@@ -1,3 +1,4 @@
+name: Add Cart
 on:
   workflow_dispatch:
     inputs:
