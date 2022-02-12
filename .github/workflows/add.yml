@@ -13,16 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Install pipenv
-        run: pipx install pipenv
+      - uses: nanasess/setup-chromedriver@v1.0.5
+      - name: Install Japanese Fonts
+        run: |
+          sudo apt install -y fonts-ipafont
+          fc-cache -fv
+          fc-list | grep -i ipa
+      - run: pipx install pipenv
       - uses: actions/setup-python@v2
         with:
           cache: 'pipenv'
-      - name: Install dependencies
-        run:  pipenv install
-      - name: Run Python script
+      - run: pipenv install
+      - run: pipenv run add_cart
         env:
           YAHOO_ID: ${{ secrets.YAHOO_ID }}
           YAHOO_PASSWORD: ${{ secrets.YAHOO_PASSWORD }}
           LOHACO_ITEM_ID: ${{ github.event.inputs.itemId }}
-        run: pipenv run add_cart
