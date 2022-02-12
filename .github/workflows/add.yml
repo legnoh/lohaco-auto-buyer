@@ -18,9 +18,8 @@ jobs:
         run: pipx install pipenv
       - name: Setup Python
         uses: actions/setup-python@v2
-        # with:
-          # python-version: '3.9'
-          # cache: pipenv
+        with:
+          cache: pipenv
       - name: Install Japanese Fonts
         run: |
           sudo apt install -y fonts-ipafont
@@ -28,6 +27,8 @@ jobs:
           fc-list | grep -i ipa
       - name: Install dependencies
         run: pipenv install
+      - name: Start XVFB
+        run: Xvfb :99 &
       - name: Add Cart
         env:
           YAHOO_ID: ${{ secrets.YAHOO_ID }}
