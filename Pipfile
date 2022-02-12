@@ -10,7 +10,7 @@ chromedriver-binary = "==97.*"
 [dev-packages]
 
 [requires]
-python_version = "3"
+python_version = "3.9"
 
 [scripts]
 add_cart = "python3 add_cart.py"
