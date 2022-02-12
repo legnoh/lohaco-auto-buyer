@@ -277,6 +277,30 @@ stores:
       #   candidates:
       #   - name: フィリップス ソニッケアー A3 Premium All-in-One HX8072/11
       #     id: "https://www.philips.co.jp/c-p/HX8072_11/"
+      - product_name: 衣類用洗剤
+        candidates:
+        - name: P&G アリエール ジェルボール4D 微香(31個)
+          id: "ax09288"
+        - name: P&G アリエール ジェルボール4D 部屋干し 爽やかな香り(31個)
+          id: "ax09289"
+        - name: P&G アリエール ジェルボール4D 清潔で爽やかな香り(31個)
+          id: "ax09287"
+      - product_name: エリそで用洗剤
+        candidates:
+        - name: ライオン トップ NANOX エリそで用 詰め替え
+          id: "8515769"
+        - name: ライオン トップ NANOX エリそで用 詰め替え(2個)
+          id: "aa53293"
+      - product_name: 色移り防止シート
+        candidates:
+        - name: ドクターベックマン カラー&ダートコレクター ECO(40枚入)
+          id: "ak39250"
+        - name: ドクターベックマン カラー&ダートコレクター(30枚入)
+          id: "1853218"
+        - name: ドクターベックマン カラー&ダートコレクター(12枚入)
+          id: "8113600"
+        - name: ドクターベックマン カラー&ダートコレクター ウルトラ(12枚入)
+          id: "j487778"
       - product_name: 制汗剤
         candidates:
         - name: デオナチュレ ソフトストーンW(メントールなし)

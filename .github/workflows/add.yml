@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       itemId:
-        description: "Item ID for PayPayMall"
+        description: "Item Name for PayPayMall"
         required: true
         type: string
 
@@ -11,8 +11,6 @@ jobs:
   add-cart:
     name: Add Item to Cart
     runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 2
     steps:
       - uses: actions/checkout@v1
       - uses: nanasess/setup-chromedriver@v1.0.5
@@ -37,7 +35,7 @@ jobs:
           TZ: "Asia/Tokyo"
           YAHOO_ID: ${{ secrets.YAHOO_ID }}
           YAHOO_PASSWORD: ${{ secrets.YAHOO_PASSWORD }}
-          LOHACO_ITEM_ID: ${{ github.event.inputs.itemId }}
+          ITEM_NAME: ${{ github.event.inputs.itemId }}
         run: pipenv run add_cart
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
