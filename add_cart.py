@@ -21,8 +21,9 @@ with open('config/items.yml', 'r') as stream:
 
 # serch product
 candidate_items = None
+genre_name =  os.environ.get('GENRE_NAME')
 product_name =  os.environ.get('ITEM_NAME')
-for item in config['stores'][0]['items']:
+for item in config['stores'][0]['genres'][genre_name]['items']:
     if product_name == item['product_name']:
         candidate_items = item['candidates']
         break

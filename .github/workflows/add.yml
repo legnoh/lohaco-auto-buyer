@@ -2,7 +2,11 @@ name: Add Cart
 on:
   workflow_dispatch:
     inputs:
-      itemId:
+      genreName:
+        description: "Genre Name for Items"
+        required: true
+        type: string
+      itemName:
         description: "Item Name for PayPayMall"
         required: true
         type: string
@@ -35,7 +39,8 @@ jobs:
           TZ: "Asia/Tokyo"
           YAHOO_ID: ${{ secrets.YAHOO_ID }}
           YAHOO_PASSWORD: ${{ secrets.YAHOO_PASSWORD }}
-          ITEM_NAME: ${{ github.event.inputs.itemId }}
+          GENRE_NAME: ${{ github.event.inputs.genreName }}
+          ITEM_NAME: ${{ github.event.inputs.itemName }}
         run: pipenv run add_cart
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
