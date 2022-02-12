@@ -11,3 +11,6 @@ chromedriver-binary = "==98.*"
 
 [requires]
 python_version = "3"
+
+[scripts]
+add_cart = "python3 add_cart.py"

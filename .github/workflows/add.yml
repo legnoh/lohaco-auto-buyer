@@ -1,0 +1,26 @@
+on:
+  workflow_dispatch:
+    inputs:
+      itemId:
+        description: "Item ID for PayPayMall"
+        required: true
+        type: string
+
+jobs:
+  add-cart:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install pipenv
+        run: pipx install pipenv
+      - uses: actions/setup-python@v2
+        with:
+          cache: 'pipenv'
+      - name: Install dependencies
+        run:  pipenv install
+      - name: run workflow
+        env:
+          YAHOO_ID: ${{ secrets.YAHOO_ID }}
+          YAHOO_PASSWORD: ${{ secrets.YAHOO_PASSWORD }}
+          LOHACO_ITEM_ID: ${{ github.event.inputs.itemId }}
+        run: pipenv run add-cart
