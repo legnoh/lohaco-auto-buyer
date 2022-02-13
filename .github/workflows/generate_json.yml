@@ -1,0 +1,38 @@
+name: Generate JSON File
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  generate_json:
+    name: Add Item to Cart
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: nanasess/setup-chromedriver@v1.0.5
+      - name: Install pipenv
+        run: pipx install pipenv
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          cache: pipenv
+      - name: Install dependencies
+        run: pipenv install
+      - name: Add Cart
+        env:
+          TZ: "Asia/Tokyo"
+        run: pipenv run generate_json
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add --all
+          git commit -m "Update ./items/* files"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

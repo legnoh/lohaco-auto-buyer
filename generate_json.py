@@ -1,11 +1,15 @@
-import json,yaml,os
+import json,yaml,os,shutil
 
 genres = {}
 lists = {}
 urls = {}
 
+# items ディレクトリ配下のファイルを一旦全て削除する
+shutil.rmtree('./items/', ignore_errors=True)
+os.makedirs('./items/', exist_ok=True)
+
 # read yml file
-with open('config/items.yml', 'r') as stream:
+with open('./config/items.yml', 'r') as stream:
     config = yaml.load(stream, Loader=yaml.FullLoader)
 
 genres = {}
@@ -13,7 +17,6 @@ genres = {}
 # convert list to dict
 for genre_name, genre in config['genres'].items():
 
-    # value部分にカンマ区切りのプロダクト名一覧を入れる
     index_genre_value = ""
     lists[genre_name] = {}
     urls[genre_name] = {}
@@ -33,11 +36,11 @@ for genre_name, genre in config['genres'].items():
 # write index json file
 with open('items/index.json', 'w') as s:
     json.dump(genres, s, indent=2)
-
 for genre, value in lists.items():
     with open('items/{genre}/index.json'.format(genre=genre), 'w') as s:
         json.dump(lists[genre], s, indent=2)
 
+# write urls text file
 for genre, products in urls.items():
     for product_name, candidates in products.items():
         with open('./items/{genre}/{product}/index.json'.format(genre=genre, product=product_name), 'w') as s:
