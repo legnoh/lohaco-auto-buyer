@@ -4,8 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-selenium = "*"
-chromedriver-binary = "==98.*"
 pyyaml = "*"
 
 [dev-packages]
@@ -14,5 +12,4 @@ pyyaml = "*"
 python_version = "3"
 
 [scripts]
-add_cart = "python3 add_cart.py"
 generate_json = "python3 generate_json.py"
