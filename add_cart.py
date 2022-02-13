@@ -23,7 +23,8 @@ with open('config/items.yml', 'r') as stream:
 candidate_items = None
 genre_name =  os.environ.get('GENRE_NAME')
 product_name =  os.environ.get('ITEM_NAME')
-for item in config['stores'][0]['genres'][genre_name]['items']:
+print("product: {product_name}".format(product_name=product_name))
+for item in config['genres'][genre_name]['items']:
     if product_name == item['product_name']:
         candidate_items = item['candidates']
         break
@@ -35,7 +36,7 @@ if candidate_items == None:
 print("Adding to cart...")
 is_success = False
 for candidate in candidate_items:
-    if lohaco.add_cart(driver, candidate['id']):
+    if lohaco.add_cart(driver, candidate['url']):
         print("SUCCESS: Added to cart - {item_name}".format(item_name=candidate['name']))
         is_success = True
         break
