@@ -8,16 +8,22 @@ urls = {}
 with open('config/items.yml', 'r') as stream:
     config = yaml.load(stream, Loader=yaml.FullLoader)
 
+genres = {}
+
 # convert list to dict
-for key, genre in config['genres'].items():
-    genres[key] = genre['name']
-    lists[key] = {}
-    urls[key] = {}
+for genre_name, genre in config['genres'].items():
+
+    # value部分にカンマ区切りのプロダクト名一覧を入れる
+    index_genre_value = ""
+    lists[genre_name] = {}
+    urls[genre_name] = {}
     for item in genre['items']:
-        lists[key][item['product_name']] = item['candidates'][0]['name']
-        urls[key][item['product_name']] = {}
+        index_genre_value += item['product_name'] + ","
+        lists[genre_name][item['product_name']] = item['candidates'][0]['name']
+        urls[genre_name][item['product_name']] = {}
         for candidate in item['candidates']:
-            urls[key][item['product_name']][candidate['name']] = candidate['url']
+            urls[genre_name][item['product_name']][candidate['name']] = candidate['url']
+    genres[genre_name] = index_genre_value
 
 # write json file
 with open('items/index.json', 'w') as s:

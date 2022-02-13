@@ -2,25 +2,24 @@
 # ジャンル名・商品名にスラッシュを使うとエラーになるので利用しないこと。
 
 genres:
-  foods:
-    name: 食品
+  食品:
     items:
     - product_name: 米
       candidates:
-      - name: 01. 北海道産 ゆめぴりか 2kg
+      - name: 北海道産 ゆめぴりか 2kg
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/3460926/
-      - name: 02. 北海道産 ゆめぴりか 5kg
+      - name: 北海道産 ゆめぴりか 5kg
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/3460917/
-      - name: 03. 秋田県産 あきたこまち 5kg
+      - name: 秋田県産 あきたこまち 5kg
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/u525106/
-    # - product_name: パン
-    #   candidates:
-    #   - name: BASE BREAD メープル(50袋)
-    #     id: "https://shop.basefood.co.jp/products/basebread/maple"
-    # - product_name: 宅食
-    #   candidates:
-    #   - name: Nosh(1週間10食・ランダム)
-    #     id: "https://nosh.jp"
+    - product_name: パン
+      candidates:
+      - name: BASE BREAD メープル(50袋)
+        url: "https://shop.basefood.co.jp/products/basebread/maple"
+    - product_name: 宅食
+      candidates:
+      - name: Nosh(1週間10食・ランダム)
+        url: "https://nosh.jp"
     - product_name: ティーバッグ(麦茶・冷)
       candidates:
       - name: 伊藤園 香り薫るむぎ茶 ティーバッグ
@@ -47,8 +46,7 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/ar85258/
       - name: カゴメ 野菜一日これ一杯(3本)
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/9621873/
-  kitchen_goods:
-    name: キッチン用品
+  キッチン用品:
     items:
     - product_name: 食洗機用洗剤
       candidates:
@@ -78,8 +76,7 @@ genres:
       candidates:
       - name: 3M スコッチブライト シンク・洗面台用クリーナー
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/P630839/
-  medicines:
-    name: 医薬品
+  医薬品:
     items:
     - product_name: 解熱鎮痛薬
       candidates:
@@ -139,13 +136,12 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/2840009/
       - name: 小林製薬 メガネクリーナふきふき(40包)
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/9063638/
-  stationery:
-    name: 文房具
+  文具:
     items:
-    # - product_name: メモ帳
-    #   candidates:
-    #   - name: マルマン クロッキーパッド 白クロッキー紙 A5
-    #     id: "https://www.amazon.co.jp/dp/B0746C742B"
+    - product_name: メモ帳
+      candidates:
+      - name: マルマン クロッキーパッド 白クロッキー紙 A5
+        url: "https://www.amazon.co.jp/dp/B0746C742B"
     - product_name: ボールペン(黒)
       candidates:
       - name: ゼブラ サラサドライ 0.4mm 黒
@@ -166,10 +162,10 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/8144188/
       - name: ぺんてる 慶弔サインペン 黒・うす墨 XSESWPD30
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/ae33750/
-    # - product_name: シャープペンシル
-    #   candidates:
-    #   - name: コクヨ 鉛筆シャープ 1.3mm 黒B芯+シャープ替芯 PS-PE113D-1P+PSR-B13-1P
-    #     id: "https://www.amazon.co.jp/dp/B08P5K6CV6/"
+    - product_name: シャープペンシル
+      candidates:
+      - name: コクヨ 鉛筆シャープ 1.3mm 黒B芯+シャープ替芯 PS-PE113D-1P+PSR-B13-1P
+        url: "https://www.amazon.co.jp/dp/B08P5K6CV6/"
     - product_name: セロテープ
       candidates:
       - name: ニチバン セロテープ 15mm x 9m(2巻)
@@ -214,8 +210,7 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/x192330/
       - name: ムトウユニパック 透けない封筒 ケント紙 テープ付 長3 〒枠あり(100枚)
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/x192354/
-  skincare_goods:
-    name: ボディケア・スキンケア用品
+  ボディケア・スキンケア用品:
     items:
     - product_name: シャンプー
       candidates:
@@ -301,16 +296,15 @@ genres:
       candidates:
       - name: ロハコ ボディタオル やわらかめ
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/x217593/
-    # - product_name: 歯ブラシ
-    #   candidates:
-    #   - name: フィリップス ソニッケアー A3 Premium All-in-One HX9093/96
-    #     id: "https://www.philips.co.jp/c-p/HX9093_96/"
-    # - product_name: 舌ブラシ
-    #   candidates:
-    #   - name: フィリップス ソニッケアー A3 Premium All-in-One HX8072/11
-    #     id: "https://www.philips.co.jp/c-p/HX8072_11/"
-  sanitary_goods:
-    name: 洗濯・風呂掃除・トイレ掃除用品
+    - product_name: 歯ブラシ
+      candidates:
+      - name: フィリップス ソニッケアー A3 Premium All-in-One HX9093/96
+        url: "https://www.philips.co.jp/c-p/HX9093_96/"
+    - product_name: 舌ブラシ
+      candidates:
+      - name: フィリップス ソニッケアー A3 Premium All-in-One HX8072/11
+        url: "https://www.philips.co.jp/c-p/HX8072_11/"
+  洗濯・風呂掃除・トイレ掃除用品:
     items:
     - product_name: 衣類用洗剤
       candidates:
@@ -384,8 +378,7 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/9817890/
       - name: ジョンソン スクラビングバブル トイレスタンプ 贅沢フレグランス アロマティックサボンの香り(2本入)
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/2796519/
-  cleaning_items:
-    name: 紙類・掃除用品
+  紙類・掃除用品:
     items:
     - product_name: ゴミ袋
       candidates:
@@ -409,12 +402,12 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/x602651/
       - name: 日本製紙クレシア スコッティ ウェットティシュー ノンアルコール 携帯用(1個) 
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/x602649/
-    # - product_name: ティッシュ(液晶用)
-    #   candidates:
-    #   - name: エレコム ウェットティッシュ 液晶用 50枚入 WC-DP50N4
-    #     id: "https://www.amazon.co.jp/dp/B07Y3FSY7J/"
-    #   - name: エレコム ウェットティッシュ 液晶用 15枚入 WC-DP15PN4
-    #     id: "https://www.amazon.co.jp/dp/B07Y3F494M/"
+    - product_name: ティッシュ(液晶用)
+      candidates:
+      - name: エレコム ウェットティッシュ 液晶用 50枚入 WC-DP50N4
+        url: "https://www.amazon.co.jp/dp/B07Y3FSY7J/"
+      - name: エレコム ウェットティッシュ 液晶用 15枚入 WC-DP15PN4
+        url: "https://www.amazon.co.jp/dp/B07Y3F494M/"
     - product_name: 荷造りひも
       candidates:
       - name: アスクル 現場のチカラ PP荷造りひも 150m
@@ -441,22 +434,21 @@ genres:
       candidates:
       - name: アトム 天然ゴム背抜き手袋 タフレッドスリム Lサイズ
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/1634329/
-    # - product_name: クリーニングブラシ(電気用品用)
-      #   candidates:
-      #   - name: エレコム クリーニングブラシ KBR-011WH
-      #     id: "https://www.elecom.co.jp/products/KBR-011WH.html"
-  others:
-    name: その他
+    - product_name: クリーニングブラシ(電気用品用)
+      candidates:
+      - name: エレコム クリーニングブラシ KBR-011WH
+        url: "https://www.elecom.co.jp/products/KBR-011WH.html"
+  その他:
     items:
     - product_name: 手袋(簡易保護用)
       candidates:
       - name: アスクル 現場のチカラ 品質管理用スムス手袋 Mサイズ 12双入
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/7883466/
-    # - product_name: レジスター 静電フィルター
-    #   candidates:
-    #   - name: ユニックス 樹脂製角型レジスター 静電フィルター トレフィン TF150A-PRP TF100A-PRP
-    #     id: "https://www.amazon.co.jp/dp/B08BS6HRRW/"
+    - product_name: 通気口用フィルター
+      candidates:
+      - name: ユニックス 樹脂製角型レジスター 静電フィルター トレフィン TF150A-PRP TF100A-PRP
+        url: "https://www.amazon.co.jp/dp/B08BS6HRRW/"
     # - product_name: 
     #   candidates:
     #   - name: 
-    #     id: ""
+    #     url: ""
