@@ -8,7 +8,7 @@ on:
 
 jobs:
   generate_json:
-    name: Add Item to Cart
+    name: Generate JSON Files
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
