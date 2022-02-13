@@ -5,14 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: add_cart",
-            "type": "python",
-            "request": "launch",
-            "program": "add_cart.py",
-            "console": "integratedTerminal",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
             "name": "Python: generate_json",
             "type": "python",
             "request": "launch",
