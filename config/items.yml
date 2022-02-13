@@ -2,7 +2,7 @@
 # ジャンル名・商品名にスラッシュを使うとエラーになるので利用しないこと。
 
 genres:
-  01.食品:
+  食品:
     items:
     - product_name: 米
       candidates:
@@ -46,7 +46,7 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/ar85258/
       - name: カゴメ 野菜一日これ一杯(3本)
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/9621873/
-  02.キッチン用品:
+  キッチン用品:
     items:
     - product_name: 食洗機用洗剤
       candidates:
@@ -76,7 +76,7 @@ genres:
       candidates:
       - name: 3M スコッチブライト シンク・洗面台用クリーナー
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/P630839/
-  03.医薬品:
+  医薬品:
     items:
     - product_name: 解熱鎮痛薬
       candidates:
@@ -136,7 +136,7 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/2840009/
       - name: 小林製薬 メガネクリーナふきふき(40包)
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/9063638/
-  04.文具:
+  文具:
     items:
     - product_name: メモ帳
       candidates:
@@ -210,7 +210,7 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/x192330/
       - name: ムトウユニパック 透けない封筒 ケント紙 テープ付 長3 〒枠あり(100枚)
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/x192354/
-  05.ボディケア・スキンケア用品:
+  ボディケア・スキンケア用品:
     items:
     - product_name: シャンプー
       candidates:
@@ -304,7 +304,7 @@ genres:
       candidates:
       - name: フィリップス ソニッケアー A3 Premium All-in-One HX8072/11
         url: "https://www.philips.co.jp/c-p/HX8072_11/"
-  06.洗濯・風呂掃除・トイレ掃除用品:
+  洗濯・風呂掃除・トイレ掃除用品:
     items:
     - product_name: 衣類用洗剤
       candidates:
@@ -378,7 +378,7 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/9817890/
       - name: ジョンソン スクラビングバブル トイレスタンプ 贅沢フレグランス アロマティックサボンの香り(2本入)
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/2796519/
-  07.紙類・掃除用品:
+  紙類・掃除用品:
     items:
     - product_name: ゴミ袋
       candidates:
@@ -438,7 +438,7 @@ genres:
       candidates:
       - name: エレコム クリーニングブラシ KBR-011WH
         url: "https://www.elecom.co.jp/products/KBR-011WH.html"
-  08.その他:
+  その他:
     items:
     - product_name: 手袋(簡易保護用)
       candidates:
