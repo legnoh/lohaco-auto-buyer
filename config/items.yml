@@ -15,11 +15,15 @@ genres:
     - product_name: パン
       candidates:
       - name: BASE BREAD メープル(50袋)
-        url: "https://shop.basefood.co.jp/products/basebread/maple"
+        url: https://shop.basefood.co.jp/products/basebread/maple
     - product_name: 宅食
       candidates:
       - name: Nosh(1週間10食・ランダム)
-        url: "https://nosh.jp"
+        url: https://nosh.jp/
+    - product_name: ナッツ
+      candidates:
+      - name: 成城石井 ロカボナッツ 素焼きミックスナッツ(10袋入)
+        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/u548711/
     - product_name: ティーバッグ(麦茶・冷)
       candidates:
       - name: 伊藤園 香り薫るむぎ茶 ティーバッグ
