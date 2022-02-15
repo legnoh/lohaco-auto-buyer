@@ -22,7 +22,9 @@ for genre_name, genre in config['genres'].items():
     urls[genre_name] = {}
     for item in genre['items']:
         os.makedirs('./items/{genre}/{product}'.format(genre=genre_name,product=item['product_name']), exist_ok=True)
-        index_genre_value += item['product_name'] + ","
+        if index_genre_value != "":
+            index_genre_value += ","
+        index_genre_value += item['product_name']
         lists[genre_name][item['product_name']] = item['candidates'][0]['name']
         urls[genre_name][item['product_name']] = {}
         i = 1
