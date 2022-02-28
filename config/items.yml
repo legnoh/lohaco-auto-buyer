@@ -22,8 +22,10 @@ genres:
         url: https://nosh.jp/
     - product_name: ナッツ
       candidates:
-      - name: 成城石井 素焼きミックスナッツ(10袋入)
-        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/u548711/
+      - name: 東洋ナッツ食品 さかなっつハイ(30袋)
+        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/5889952/
+      - name: 東洋ナッツ食品 素焼きミックスナッツ(25袋)
+        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/5889916/
     - product_name: ティーバッグ(麦茶・冷)
       candidates:
       - name: 伊藤園 香り薫るむぎ茶 ティーバッグ
@@ -38,10 +40,10 @@ genres:
         url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/x909649/
     - product_name: インスタントコーヒー(熱)
       candidates:
-      - name: マウントハーゲン オーガニック カフェインレスコーヒー
-        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/8951284/
-      - name: ネスカフェ ゴールドブレンド カフェインレス
-        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/9310793/
+      - name: ネスカフェ ゴールドブレンド カフェインレス(詰替)
+        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/1587541/
+      - name: ネスカフェ ゴールドブレンド カフェインレス スティックコーヒー(7本入)
+        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/6155861/
     - product_name: 野菜ジュース
       candidates:
       - name: 伊藤園 栄養強化型 1日分の野菜 740g(3本)
@@ -84,10 +86,14 @@ genres:
     items:
     - product_name: 解熱鎮痛薬
       candidates:
-      - name: ロキソニンSプレミアム 12錠
-        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/2751750/
-      - name: ロキソニンS 12錠
-        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/8935039/
+      - name: 大塚製薬 ナロン錠(24錠)
+        url: https://www.amazon.co.jp/-/en/dp/B005UJ178U/
+      - name: 小林製薬 ハッキリエースa(30包)
+        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/8883406/
+      - name: ジョンソン・エンド・ジョンソン タイレノールA(20錠)
+        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/8937955/
+      - name: ライオン バファリン ルナJ(12錠)
+        url: https://paypaymall.yahoo.co.jp/store/y-lohaco/item/2630594/
     - product_name: 胃腸薬
       candidates:
       - name: 第一三共ヘルスケア 第一三共胃腸薬 グリーン 微粒(20包)
