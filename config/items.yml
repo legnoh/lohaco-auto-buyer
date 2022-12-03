@@ -62,6 +62,26 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/ar85258.html
       - name: カゴメ 野菜一日これ一杯(3本)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/9621873.html
+    - product_name: 塩
+      candidates:
+      - name: 塩事業センター　食卓塩 100g
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/x915269.html
+    - product_name: 醤油
+      candidates:
+      - name: ヤマサ さしみしょうゆ 200ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/9347407.html
+    - product_name: ポン酢
+      candidates:
+      - name: ミツカン 味ぽん 150ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/e500759.html
+    - product_name: ドレッシング
+      candidates:
+      - name: リケンのノンオイル 青じそ 190ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/p421029.html
+    - product_name: 食用油
+      candidates:
+      - name: 味の素 オリーブオイル 200g
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/6201801.html
   キッチン用品:
     items:
     - product_name: 食洗機用洗剤
@@ -84,9 +104,9 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/x628112.html
     - product_name: スポンジ(水筒用)
       candidates:
-      - name: 3M スコッチブライト 泡立ちゆたか ソフトスポンジ(グレー・取り替え用)
+      - name: 3M スコッチブライト ボトル洗いソフトスポンジ(グレー・取り替え用)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/x628108.html
-      - name: 3M スコッチブライト 泡立ちゆたか ソフトスポンジ(グレー・本体)
+      - name: 3M スコッチブライト ボトル洗いソフトスポンジ(グレー・本体)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/x628107.html
     - product_name: スポンジ(シンク用)
       candidates:
@@ -272,14 +292,26 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/e349063.html
     - product_name: 歯磨き粉
       candidates:
-      - name: アパガード プレミオ 100g
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/9802510.html
-      - name: アパガード プレミオ 50g
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/j979552.html
-      - name: アパガード ロイヤル 40g
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/wx74507.html
-      - name: アパガード ロイヤル 135g
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/wx74508.html
+      - name: シュミテクト コンプリートワンEX プレミアム 90g
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/nn64694.html
+      - name: シュミテクト コンプリートワンEX 90g
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/1556142.html
+    - product_name: 歯ブラシ
+      candidates:
+      - name: ライオン システマ ストレートハンドル 超コンパクト C41
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/8365394.html
+      - name: ライオン システマ ストレートハンドル 超コンパクト C41(3本)
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/j093346.html
+    - product_name: 歯間ブラシ
+      candidates:
+      - name: デンタルコンセプト ドクターズ ブラッシュピックス(40本入)
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/j284420.html
+      - name: ライオン システマ 歯間用ブラシ SSS 8本
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/1555922.html
+    - product_name: 舌ブラシ
+      candidates:
+      - name: デンタルプロ 舌ブラシ 超ソフトタイプ 1セット(3本)
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/j697408.html
     - product_name: 制汗剤
       candidates:
       - name: デオナチュレ ソフトストーンW(メントールなし)
@@ -310,16 +342,6 @@ genres:
       candidates:
       - name: ロハコ ボディタオル やわらかめ
         url: https://store.shopping.yahoo.co.jp/y-lohaco/x217593.html
-    - product_name: 歯ブラシ
-      candidates:
-      - name: ライオン システマ ストレートハンドル 超コンパクト C41(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/j093346.html
-      - name: ライオン システマ ストレートハンドル 超コンパクト C41
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/8365394.html
-    - product_name: 舌ブラシ
-      candidates:
-      - name: デンタルプロ 舌ブラシ 超ソフトタイプ 1セット(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/j697408.html
   洗濯・風呂掃除・トイレ掃除用品:
     items:
     - product_name: 衣類用洗剤
@@ -436,6 +458,10 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/8108172.html
       - name: 日本製紙クレシア クリネックス 45m 8ロール
         url: https://store.shopping.yahoo.co.jp/y-lohaco/j096727.html
+    - product_name: アイマスク
+      candidates:
+      - name: 花王 めぐりズム 蒸気でホットアイマスク ローズの香り(12枚入) 
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/j930215.html
     - product_name: 手袋(作業用)
       candidates:
       - name: アトム 天然ゴム背抜き手袋 タフレッドスリム Lサイズ
