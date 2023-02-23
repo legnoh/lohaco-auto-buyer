@@ -6,32 +6,58 @@ genres:
     items:
     - product_name: 米
       candidates:
-      - name: ふるさと納税 佐賀県佐賀市 佐賀県産「ひのひかり」無洗米(2kg×2袋)
-        url: https://store.shopping.yahoo.co.jp/furunavi/117475.html
-      - name: ろはこ米 秋田県産 あきたこまち 無洗米 5kg
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/u525106.html
-    - product_name: パン
+      - name: ろはこ米 無洗米 2~5kg
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/search.html?p=ろはこ米+無洗米&X=2&used=&uIv=on#CentSrchFilter1
+    - product_name: パン(完全食)
       candidates:
       - name: BASE BREAD メープル(50袋)
         url: https://shop.basefood.co.jp/mypage/subscription
+    - product_name: パスタ
+      candidates:
+      - name: 日清製粉ウェルナ ディチェコ(オーガニック) No.11 スパゲッティーニ 3個
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/e662223.html
+      - name: 日清製粉ウェルナ ディチェコ(オーガニック) No.11 スパゲッティーニ
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/e661674.html
+    - product_name: パスタソース
+      candidates:
+      - name: キユーピー あえるパスタソース きのこバター醤油 鶏肉の和風仕立て (62g*2) 6個
+        url: https://www.amazon.co.jp/dp/B0B73VM9NT/
+      - name: キユーピー あえるパスタソース ボンゴレビアンコ 白ワイン仕立て (60g*2) 6個
+        url: https://www.amazon.co.jp/dp/B00TGO7K7M/
     - product_name: 宅食
       candidates:
-      - name: Nosh(1週間8食・ランダム)
-        url: https://nosh.jp/mypage/
-    - product_name: カツオのたたき
+      - name: 食宅便 塩分ケア おかず7食
+        url: https://shokutakubin.com/shop/g/gCNA-R/
+    - product_name: 冷凍野菜
       candidates:
-      - name: コスヤ 鰹のたたき 1.5kg タレ塩付
-        url: https://store.shopping.yahoo.co.jp/kosuya/katsuotataki.html
-      - name: ふるさと納税 高知県須崎市 鰹のたたき 1.7kg
-        url: https://store.shopping.yahoo.co.jp/furunavi/479664.html
-      - name: ふるさと納税 高知県土佐市 かつおのタタキ 1.6kg
-        url: https://store.shopping.yahoo.co.jp/furunavi/479664.html
+      - name: Delcy 5種の緑野菜 250g
+        url: https://store.shopping.yahoo.co.jp/smilespoon/6938475.html
+      - name: Delcy 国産 きざみ 青ねぎ 100g
+        url: https://store.shopping.yahoo.co.jp/smilespoon/7003629.html
+    - product_name: 野菜ジュース
+      candidates:
+      - name: 伊藤園 栄養強化型 1日分の野菜 740g(3本)
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar85257.html
+      - name: 伊藤園 1日分の野菜 900g 1セット(3本)
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar85258.html
+      - name: カゴメ 野菜一日これ一杯(3本)
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/9621873.html
+    - product_name: サラダチキン
+      candidates:
+      - name: 伊藤ハム サラダチキン ハーブ 10袋
+        url: https://store.shopping.yahoo.co.jp/ever-shop/4901231927837.html
+      - name: 伊藤ハム サラダチキン スモーク 10袋
+        url: https://store.shopping.yahoo.co.jp/ever-shop/4901231134068.html
+      - name: 伊藤ハム サラダチキン 瀬戸内レモン 10袋
+        url: https://store.shopping.yahoo.co.jp/ever-shop/4901231052201.html
+      - name: 伊藤ハム サラダチキン プレーン 10袋
+        url: https://store.shopping.yahoo.co.jp/ever-shop/4901231927820.html
     - product_name: ナッツ
       candidates:
+      - name: 東洋ナッツ食品 素焼きアーモンド(25袋)
+        url: https://www.amazon.co.jp/dp/B017LW6HL0/
       - name: 東洋ナッツ食品 素焼きミックスナッツ(25袋)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/5889916.html
-      - name: 東洋ナッツ食品 さかなっつハイ(30袋)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/5889952.html
     - product_name: 麦茶
       candidates:
       - name: 伊藤園 香り薫るむぎ茶 ティーバッグ
@@ -50,30 +76,18 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/x909649.html
     - product_name: コーヒー
       candidates:
-      - name: ネスカフェ ゴールドブレンド カフェインレス スティックコーヒー(7本入)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/6155861.html
       - name: ネスカフェ ゴールドブレンド カフェインレス(詰替)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/1587541.html
-    - product_name: 野菜ジュース
-      candidates:
-      - name: 伊藤園 栄養強化型 1日分の野菜 740g(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar85257.html
-      - name: 伊藤園 1日分の野菜 900g 1セット(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar85258.html
-      - name: カゴメ 野菜一日これ一杯(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/9621873.html
+      - name: ネスカフェ ブラックスティック セレクション 1箱 13本入
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/nw69881.html
     - product_name: 塩
       candidates:
-      - name: 塩事業センター　食卓塩 100g
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/x915269.html
+      - name: 味の素 やさしお 100g
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/ae99786.html
     - product_name: 醤油
       candidates:
-      - name: ヤマサ さしみしょうゆ 200ml
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/9347407.html
-    - product_name: ポン酢
-      candidates:
-      - name: ミツカン 味ぽん 150ml
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/e500759.html
+      - name: キッコーマン 大豆ペプチド減塩しょうゆ 200ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/a778804.html
     - product_name: ドレッシング
       candidates:
       - name: リケンのノンオイル 青じそ 190ml
@@ -150,6 +164,10 @@ genres:
       candidates:
       - name:  第一三共ヘルスケア トラフル錠 24錠
         url: https://store.shopping.yahoo.co.jp/y-lohaco/8500013.html
+    - product_name: かゆみ止め
+      candidates:
+      - name: 第一三共ヘルスケア オイラックスA 10g
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/8940558.html
     - product_name: 目薬
       candidates:
       - name: 参天製薬 サンテメディカル12
@@ -270,18 +288,32 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/4042591.html
   ボディケア・スキンケア用品:
     items:
-    - product_name: 全身シャンプー・風呂掃除
+    - product_name: シャンプー
       candidates:
-      - name: 花王 メンズビオレONE オールインワン全身洗浄料 髪肌なめらかタイプ(詰め替えx2)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/x323794.html
-      - name: 花王 メンズビオレONE オールインワン全身洗浄料 髪肌なめらかタイプ(詰め替え)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/x323768.html
-    - product_name: 乳液
+      - name: MARO17 コラーゲンシャンプー パーフェクトウォッシュ 300ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/w610316.html
+    - product_name: コンディショナー
       candidates:
-      - name: 花王 メンズビオレワン ONE お風呂場でぬれたまま使う保湿ミルク 無香料(つけかえ)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/nh11201.html
-      - name: 花王 メンズビオレワン ONE お風呂場でぬれたまま使う保湿ミルク 無香料(本体)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/nh11202.html
+      - name: MARO17 コラーゲン スカルプコンディショナー 300ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/w610318.html
+    - product_name: ボディソープ
+      candidates:
+      - name: 大塚製薬 ULOS スキンウォッシュ 500ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/4583546.html
+    - product_name: 洗顔料
+      candidates:
+      - name: 花王 ニベアメン フェイスウォッシュ フレッシュ 100g
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/2475835.html
+    - product_name: 化粧水/美容液/乳液
+      candidates:
+      - name: 花王 ニベアメン モーニング10 クリアジェル オールインワン 100g
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/ax58026.html
+      - name: 熊野油脂 麗白ハトムギ 化粧水 大容量サイズ 1000ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/3399694.html
+    - product_name: 日焼け止め
+      candidates:
+      - name: 花王 ニベアメン UVプロテクター 40ml
+        url: https://www.amazon.co.jp/dp/B07B5CRML9/
     - product_name: リップクリーム
       candidates:
       - name: ニベアメン リップ
@@ -314,10 +346,6 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/j284420.html
       - name: ライオン システマ 歯間用ブラシ SSS 8本
         url: https://store.shopping.yahoo.co.jp/y-lohaco/1555922.html
-    - product_name: 舌ブラシ
-      candidates:
-      - name: デンタルプロ 舌ブラシ 超ソフトタイプ 1セット(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/j697408.html
     - product_name: 制汗剤
       candidates:
       - name: デオナチュレ ソフトストーンW(メントールなし)
@@ -330,10 +358,6 @@ genres:
         url: https://www.amazon.co.jp/dp/B08G17TDRY/
       - name: GATSBY ムービングラバー エクストリームマット 80g
         url: https://www.amazon.co.jp/dp/B08G18S3XK/
-    - product_name: 日焼け止め
-      candidates:
-      - name: 花王 メンズビオレONE BB＆UVクリーム 30g
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/aa28009.html
     - product_name: シェーバー(替え刃・外)
       candidates:
       - name: パナソニック ラムダッシュ 替刃(一体型セット刃) ES9600(毎1.5年)
@@ -352,22 +376,16 @@ genres:
     items:
     - product_name: 衣類用洗剤
       candidates:
-      - name: P&G アリエール ジェルボール4D 微香(39個)
+      - name: ライオン トップ スーパーNANOX 自動投入洗濯機専用 洗剤 850g
         url: https://store.shopping.yahoo.co.jp/y-lohaco/ax09288.html
-      - name: P&G アリエール ジェルボール4D 微香(76個)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ax32328.html
-      - name: P&G アリエール ジェルボール4D 微香(12個)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ax09302.html
-    - product_name: 色移り防止シート
+    - product_name: 柔軟剤
       candidates:
-      - name: ドクターベックマン カラー&ダートコレクター ECO(40枚入)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ak39250.html
-      - name: ドクターベックマン カラー&ダートコレクター(30枚入)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/1853218.html
-      - name: ドクターベックマン カラー&ダートコレクター(12枚入)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/8113600.html
-      - name: ドクターベックマン カラー&ダートコレクター ウルトラ(12枚入)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/j487778.html
+      - name: ライオン ソフラン アロマリッチ エリー 1200ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/wx89192.html
+    - product_name: おしゃれ着洗剤
+      candidates:
+      - name: ライオン アクロン スマートケア グリーンシトラスの香り 820ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/hn13002.html
     - product_name: 風呂ブラシ
       candidates:
       - name: 3M スコッチブライト バスシャイン すきまブラシ Bー511J
@@ -400,7 +418,7 @@ genres:
       candidates:
       - name: ジョンソン スクラビングバブル 流せるトイレブラシ 付替ブラシ12個入 
         url: https://store.shopping.yahoo.co.jp/y-lohaco/9576885.html
-      - name: ジョンソン スクラビングバブル 流せるトイレブラシ 付替ブラシ24個入 
+      - name: ジョンソン スクラビングバブル 流せるトイレブラシ 付替ブラシ24個入
         url: https://store.shopping.yahoo.co.jp/y-lohaco/3103567.html
     - product_name: トイレスタンプ
       candidates:
@@ -450,7 +468,7 @@ genres:
       candidates:
       - name: ニトムズ コロコロ フロアクリン オレンジラインあり 45周(3巻入) 
         url: https://store.shopping.yahoo.co.jp/y-lohaco/5598801.html
-      - name: ニトムズ コロコロ フロアクリン オレンジラインなし 45周(3巻入) 
+      - name: ニトムズ コロコロ フロアクリン オレンジラインなし 45周(3巻入)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/J679596.html
     - product_name: トイレットペーパー
       candidates:
@@ -464,10 +482,16 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/8108172.html
       - name: 日本製紙クレシア クリネックス 45m 8ロール
         url: https://store.shopping.yahoo.co.jp/y-lohaco/j096727.html
+    - product_name: 紙ふきん
+      candidates:
+      - name: 日本製紙クレシア スコッティファイン 洗って使えるペーパータオル 無地 70カット1ロール
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/u370815.html
+      - name: 日本製紙クレシア スコッティファイン 洗って使えるペーパータオル プリント 60カット1ロール
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar75916.html
     - product_name: アイマスク
       candidates:
-      - name: 花王 めぐりズム 蒸気でホットアイマスク ローズの香り(12枚入) 
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/j930215.html
+      - name: 花王 めぐりズム 蒸気でホットアイマスク 無香料(12枚入) 
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/j930212.html
     - product_name: 手袋(作業用)
       candidates:
       - name: アトム 天然ゴム背抜き手袋 タフレッドスリム Lサイズ
@@ -478,8 +502,54 @@ genres:
         url: https://www.amazon.co.jp/dp/B01BPNL4Y6/
       - name: エレコム クリーニングブラシ KBR-011WH
         url: https://www.amazon.co.jp/dp/B01BPNL5B8/
+  衣類:
+    items:
+    - product_name: シャツ
+      candidates: 
+      - name: ユニクロ オックスフォードシャツ
+        url: https://www.uniqlo.com/jp/ja/search?q=オックスフォード%20シャツ%20長袖&path=1072%2C1750%2C5593%2C5604&sizeCodes=SMA004&storeId=101120&inventoryCondition=1
+      - name: ユニクロ ボーダーシャツ
+        url: https://www.uniqlo.com/jp/ja/search?q=ボーダー%20長袖&path=1072%2C1750%2C1769%2C3880&colorCodes=COL00%2CCOL01&sizeCodes=SMA004&storeId=101120&inventoryCondition=1
+    - product_name: ズボン
+      candidates:
+      - name: ユニクロ スキニーフィットジーンズ
+        url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スキニー&path=1072%2C1751%2C1781%2C1873&colorCodes=COL09&sizeCodes=INS032%2CINS031%2CINS033%2CINS034&storeId=101120&inventoryCondition=1
+      - name: ユニクロ ワイドフィットジーンズ
+        url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20ワイド&path=1072%2C1751%2C1781%2C21901&sizeCodes=INS031%2CINS032%2CINS033&storeId=101120&inventoryCondition=1
+    - product_name: スウェット
+      candidates:
+      - name: ユニクロ ウルトラストレッチスウェットセット
+        url: https://www.uniqlo.com/jp/ja/search?q=%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%83%E3%83%88&path=1072%2C1753%2C1792%2C7295
+    - product_name: インナーシャツ
+      candidates:
+      - name: ユニクロ エアリズム VネックT(半袖)
+        url: https://www.uniqlo.com/jp/ja/search?q=エアリズム%20VネックT%20半袖&path=1072%2C1752%2C1784%2C25800&colorCodes=COL09&sizeCodes=SMA004&storeId=101120&inventoryCondition=1
+    - product_name: パンツ
+      candidates:
+      - name: ユニクロ エアリズム トランクス
+        url: https://www.uniqlo.com/jp/ja/search?q=エアリズム%20トランクス&path=1072%2C1752%2C1784%2C5371&colorCodes=COL09&sizeCodes=SMA004&storeId=101120&inventoryCondition=1
+    - product_name: 靴下
+      candidates:
+      - name: フィンガーソックス
+        url: https://www.uniqlo.com/jp/ja/search?q=ソックス%20フィンガー&path=1072%2C1752%2C1787%2C3928&colorCodes=COL09&sizeCodes=MSC025&storeId=101120&inventoryCondition=1
+    - product_name: ハンカチ
+      candidates:
+      - name: 汎用品 ドット柄(タオル素材は除く)
+        url: https://shopping.yahoo.co.jp/search?first=1&ss_first=1&ts=1676905116&mcr=3b26ce8a4aec9ee915a6f61840b5e82b&X=12&cid=22718&kspec=E413AE46052&tab_ex=commerce&pview=1&used=2&area=12&astk=&aq=&oq=&p=-タオル+ドット&sretry=1
+    - product_name: AppleWatch バンド
+      candidates:
+      - name: Apple 45mm ブラック バンド(ソロループ:6)
+        url: https://www.apple.com/jp/shop/watch/bands/apple-watch-45mm-ブラック
   その他:
     items:
+    - product_name: 電池(CR123A)
+      candidates:
+      - name: パナソニック CR-123AW/4P
+        url: https://shopping.yahoo.co.jp/search?brandid=1460&X=2&p=CR-123AW%2F4P&ss_first=1&area=12&astk=2&pview=1
+    - product_name: 電池(CR2)
+      candidates:
+      - name: パナソニック CR-2W/4P
+        url: https://shopping.yahoo.co.jp/search?brandid=1460&X=2&p=CR-2W%2F4P&ss_first=1&area=12&astk=2&pview=1&prom=1
     - product_name: 手袋(簡易保護用)
       candidates:
       - name: アスクル 現場のチカラ 品質管理用スムス手袋 Mサイズ 12双入
