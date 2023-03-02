@@ -436,7 +436,7 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/1478995.html
       - name: 日本技研工業 とって付きゴミ袋 半透明 30L 20枚入り
         url: https://store.shopping.yahoo.co.jp/y-lohaco/j934473.html
-    - product_name: ティッシュ(据置)
+    - product_name: ティッシュ(箱)
       candidates:
       - name: 日本製紙クレシア スコッティ 200組(5箱入)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/2059606.html
@@ -460,16 +460,16 @@ genres:
         url: https://www.amazon.co.jp/dp/B07Y3F494M/
       - name: エレコム ウェットティッシュ 液晶用 50枚入 WC-DP50N4
         url: https://www.amazon.co.jp/dp/B07Y3FSY7J/
-    - product_name: 荷造りひも
+    - product_name: 紙ふきん・雑巾
       candidates:
-      - name: アスクル 現場のチカラ PP荷造りひも 150m
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/9421012.html
-    - product_name: コロコロ(粘着クリーナー)
-      candidates:
-      - name: ニトムズ コロコロ フロアクリン オレンジラインあり 45周(3巻入) 
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/5598801.html
-      - name: ニトムズ コロコロ フロアクリン オレンジラインなし 45周(3巻入)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/J679596.html
+      - name: 日本製紙クレシア スコッティファイン 洗って使えるペーパータオル 無地 70カット1ロール
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/u370815.html
+      - name: 日本製紙クレシア スコッティファイン 洗って使えるペーパータオル プリント 60カット1ロール
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar75916.html
+      - name: 日本製紙クレシア ペーパータオル クレシアEFハンドタオル ソフトタイプ200 スリムEX
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/u232452.html
+      - name: 日本製紙クレシア キムタオル ホワイト 4つ折り 1束
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/1642142.html
     - product_name: トイレットペーパー
       candidates:
       - name: 日本製紙クレシア スコッティ フラワーパック ナチュラル 75m 4ロール
@@ -482,12 +482,16 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/8108172.html
       - name: 日本製紙クレシア クリネックス 45m 8ロール
         url: https://store.shopping.yahoo.co.jp/y-lohaco/j096727.html
-    - product_name: 紙ふきん
+    - product_name: 荷造りひも
       candidates:
-      - name: 日本製紙クレシア スコッティファイン 洗って使えるペーパータオル 無地 70カット1ロール
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/u370815.html
-      - name: 日本製紙クレシア スコッティファイン 洗って使えるペーパータオル プリント 60カット1ロール
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar75916.html
+      - name: アスクル 現場のチカラ PP荷造りひも 150m
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/9421012.html
+    - product_name: コロコロ(粘着クリーナー)
+      candidates:
+      - name: ニトムズ コロコロ フロアクリン オレンジラインあり 45周(3巻入) 
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/5598801.html
+      - name: ニトムズ コロコロ フロアクリン オレンジラインなし 45周(3巻入)
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/J679596.html
     - product_name: アイマスク
       candidates:
       - name: 花王 めぐりズム 蒸気でホットアイマスク 無香料(12枚入) 
@@ -502,6 +506,10 @@ genres:
         url: https://www.amazon.co.jp/dp/B01BPNL4Y6/
       - name: エレコム クリーニングブラシ KBR-011WH
         url: https://www.amazon.co.jp/dp/B01BPNL5B8/
+    - product_name: フェイスタオル
+      candidates:
+      - name: 無印良品パイル織り薄手フェイスタオル(6枚セット)
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/search.html?p=無印良品+フェイスタオル+薄手&X=3&used=&uIv=on#CentSrchFilter1
   衣類:
     items:
     - product_name: シャツ
