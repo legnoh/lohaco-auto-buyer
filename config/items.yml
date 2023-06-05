@@ -14,34 +14,16 @@ genres:
         url: https://shop.basefood.co.jp/mypage/subscription
     - product_name: パスタ
       candidates:
-      - name: 日清製粉ウェルナ ディチェコ(オーガニック) No.11 スパゲッティーニ 3個
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/e662223.html
-      - name: 日清製粉ウェルナ ディチェコ(オーガニック) No.11 スパゲッティーニ
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/e661674.html
-    - product_name: パスタソース
-      candidates:
-      - name: キユーピー あえるパスタソース きのこバター醤油 鶏肉の和風仕立て (62g*2) 6個
-        url: https://www.amazon.co.jp/dp/B0B73VM9NT/
-      - name: キユーピー あえるパスタソース ボンゴレビアンコ 白ワイン仕立て (60g*2) 6個
-        url: https://www.amazon.co.jp/dp/B00TGO7K7M/
-    - product_name: 宅食
-      candidates:
-      - name: 食宅便 塩分ケア おかず7食
-        url: https://shokutakubin.com/shop/g/gCNA-R/
+      - name: 日清製粉ウェルナ マ・マー スパゲティ 1.6mm (300g) 3個
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/j087254.html
+      - name: 日清製粉ウェルナ マ・マー スパゲティ 1.6mm (600g) 1個
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/2808404.html
     - product_name: 冷凍野菜
       candidates:
       - name: Delcy 5種の緑野菜 250g
         url: https://store.shopping.yahoo.co.jp/smilespoon/6938475.html
       - name: Delcy 国産 きざみ 青ねぎ 100g
         url: https://store.shopping.yahoo.co.jp/smilespoon/7003629.html
-    - product_name: 野菜ジュース
-      candidates:
-      - name: 伊藤園 栄養強化型 1日分の野菜 740g(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar85257.html
-      - name: 伊藤園 1日分の野菜 900g 1セット(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ar85258.html
-      - name: カゴメ 野菜一日これ一杯(3本)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/9621873.html
     - product_name: サラダチキン
       candidates:
       - name: 伊藤ハム サラダチキン ハーブ 10袋
@@ -54,10 +36,10 @@ genres:
         url: https://store.shopping.yahoo.co.jp/ever-shop/4901231927820.html
     - product_name: ナッツ
       candidates:
-      - name: 東洋ナッツ食品 素焼きアーモンド(25袋)
-        url: https://www.amazon.co.jp/dp/B017LW6HL0/
       - name: 東洋ナッツ食品 素焼きミックスナッツ(25袋)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/5889916.html
+      - name: 東洋ナッツ食品 素焼きアーモンド(25袋)
+        url: https://www.amazon.co.jp/dp/B017LW6HL0/
     - product_name: 麦茶
       candidates:
       - name: 伊藤園 香り薫るむぎ茶 ティーバッグ
@@ -152,13 +134,15 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/8940549.html
     - product_name: 鼻炎薬
       candidates:
-      - name: アレグラFX 14錠
+      - name: 久光製薬 アレグラFX 14錠
         url: https://store.shopping.yahoo.co.jp/y-lohaco/1997808.html
+      - name: 第一三共ヘルスケア エージーノーズ アレルカットM 15ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/1290676.html
     - product_name: 酔い止め薬
       candidates:
-      - name: アネロン ニスキャップ(6カプセル)
+      - name: エスエス製薬 アネロン ニスキャップ(6カプセル)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/9457178.html
-      - name: アネロン ニスキャップ(9カプセル)
+      - name: エスエス製薬 アネロン ニスキャップ(9カプセル)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/9457196.html
     - product_name: 口内炎用の薬
       candidates:
@@ -172,6 +156,8 @@ genres:
       candidates:
       - name: 参天製薬 サンテメディカル12
         url: https://store.shopping.yahoo.co.jp/y-lohaco/3617087.html
+      - name: ロート アルガード クリアブロックEXa 13ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/9553399.html
     - product_name: 冷感シート
       candidates:
       - name: 小林製薬 熱さまシート 大人用(16枚入)
@@ -180,17 +166,17 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/3169685.html
     - product_name: 絆創膏(大)
       candidates:
-      - name: バンドエイド キズパワーパッド ジャンボ(3枚)
+      - name: ジョンソン・エンド・ジョンソン バンドエイド キズパワーパッド ジャンボ(3枚)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/8207297.html
     - product_name: 絆創膏(中)
       candidates:
-      - name: バンドエイド キズパワーパッド 大きめサイズ(6枚)
+      - name: ジョンソン・エンド・ジョンソン バンドエイド キズパワーパッド 大きめサイズ(6枚)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/8158782.html
-      - name: バンドエイド キズパワーパッド 大きめサイズ(12枚)
+      - name: ジョンソン・エンド・ジョンソン バンドエイド キズパワーパッド 大きめサイズ(12枚)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/1417185.html
     - product_name: 絆創膏(小)
       candidates:
-      - name: バンドエイド キズパワーパッド スポットタイプ(10枚)
+      - name: ジョンソン・エンド・ジョンソン バンドエイド キズパワーパッド スポットタイプ(10枚)
         url: https://store.shopping.yahoo.co.jp/y-lohaco/9010330.html
     - product_name: マスク
       candidates:
@@ -308,8 +294,6 @@ genres:
       candidates:
       - name: 花王 ニベアメン モーニング10 クリアジェル オールインワン 100g
         url: https://store.shopping.yahoo.co.jp/y-lohaco/ax58026.html
-      - name: 熊野油脂 麗白ハトムギ 化粧水 大容量サイズ 1000ml
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/3399694.html
     - product_name: 日焼け止め
       candidates:
       - name: 花王 ニベアメン UVプロテクター 40ml
@@ -380,22 +364,20 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/nh74351.html
     - product_name: 柔軟剤
       candidates:
-      - name: ライオン ソフラン アロマリッチ エリー 1200ml
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/wx89192.html
+      - name: P&G レノアハピネス 夢ふわタッチ 上品で心地よいホワイトティーの香り 1400ml
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/wk68833.html
     - product_name: おしゃれ着洗剤
       candidates:
       - name: ライオン アクロン スマートケア グリーンシトラスの香り 820ml
         url: https://store.shopping.yahoo.co.jp/y-lohaco/hn13002.html
     - product_name: 風呂ブラシ
       candidates:
-      - name: 3M スコッチブライト バスシャイン すきまブラシ Bー511J
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ax07841.html
-      - name: 激落ち 黒カビくん お風呂(バス用)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/p174676.html
+      - name: 無印良品 タイル目地ブラシ
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/wr52447.html
     - product_name: 風呂スポンジ
       candidates:
-      - name: 3M スコッチブライト バスシャイン ハンディスポンジロング 取替用
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/ax07836.html
+      - name: 無印良品 掃除用品システム バス用スポンジ
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/wx51292.html
     - product_name: ぞうきん
       candidates:
       - name: TENDAI 未漂白ぞうきん 1パック(10枚入)
@@ -508,8 +490,8 @@ genres:
         url: https://www.amazon.co.jp/dp/B01BPNL5B8/
     - product_name: フェイスタオル
       candidates:
-      - name: 無印良品パイル織り薄手フェイスタオル(6枚セット)
-        url: https://store.shopping.yahoo.co.jp/y-lohaco/search.html?p=無印良品+フェイスタオル+薄手&X=3&used=&uIv=on#CentSrchFilter1
+      - name: 無印良品 パイル織りフェイスタオル
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/search.html?p=無印良品+フェイスタオル
   衣類:
     items:
     - product_name: シャツ
@@ -522,12 +504,20 @@ genres:
       candidates:
       - name: ユニクロ スキニーフィットジーンズ
         url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スキニー&path=1072%2C1751%2C1781%2C1873&colorCodes=COL09&sizeCodes=INS032%2CINS031%2CINS033%2CINS034&storeId=101120&inventoryCondition=1
-      - name: ユニクロ ワイドフィットジーンズ
-        url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20ワイド&path=1072%2C1751%2C1781%2C21901&sizeCodes=INS031%2CINS032%2CINS033&storeId=101120&inventoryCondition=1
-    - product_name: スウェット
+      - name: ユニクロ スリムフィットジーンズ
+        url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スリム&path=1072%2C1751%2C1781%2C1877&sizeCodes=INS031%2CINS032%2CINS033%2CINS034
+    - product_name: スポーツ用シャツ
       candidates:
-      - name: ユニクロ ウルトラストレッチスウェットセット
-        url: https://www.uniqlo.com/jp/ja/search?q=%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%83%E3%83%88&path=1072%2C1753%2C1792%2C7295
+      - name: ユニクロ ドライEXクルーネックTシャツ(半袖)
+        url: https://www.uniqlo.com/jp/ja/search?q=クルーネック&path=1072%2C2447%2C36235%2C36281&colorCodes=COL60%2CCOL64%2CCOL65%2CCOL66%2CCOL68%2CCOL69&sizeCodes=SMA004%2CSMA003
+    - product_name: スポーツ用ショートパンツ
+      candidates:
+      - name: ユニクロ ウルトラストレッチドライEXショーツ
+        url: https://www.uniqlo.com/jp/ja/search?q=ショーツ&path=1072%2C2447%2C36236%2C36284&colorCodes=COL09&sizeCodes=SMA004%2CSMA005%2CSMA003
+    - product_name: スポーツ用ジョガーパンツ
+      candidates:
+      - name: ユニクロ ウルトラストレッチドライEXジョガーパンツ
+        url: https://www.uniqlo.com/jp/ja/search?q=パンツ&path=1072%2C2447%2C36236%2C36283&colorCodes=COL09&sizeCodes=SMA003%2CSMA004%2CSMA005
     - product_name: インナーシャツ
       candidates:
       - name: ユニクロ エアリズム VネックT(半袖)
