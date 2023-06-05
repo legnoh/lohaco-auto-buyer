@@ -62,6 +62,12 @@ genres:
         url: https://store.shopping.yahoo.co.jp/y-lohaco/1587541.html
       - name: ネスカフェ ブラックスティック セレクション 1箱 13本入
         url: https://store.shopping.yahoo.co.jp/y-lohaco/nw69881.html
+    - product_name: 乳酸菌飲料
+      candidates:
+      - name: アサヒ飲料 届く強さの乳酸菌W ラベルレスボトル 100ml 30本入
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/ae08384.html
+      - name: アサヒ飲料 届く強さの乳酸菌W 200ml 24本入
+        url: https://store.shopping.yahoo.co.jp/y-lohaco/pk71481.html
     - product_name: 塩
       candidates:
       - name: 味の素 やさしお 100g
