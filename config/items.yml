@@ -498,7 +498,7 @@ genres:
       candidates:
       - name: 無印良品 パイル織りフェイスタオル
         url: https://store.shopping.yahoo.co.jp/y-lohaco/search.html?p=無印良品+フェイスタオル
-  衣類:
+  衣類(短寿命):
     items:
     - product_name: シャツ
       candidates: 
@@ -508,10 +508,10 @@ genres:
         url: https://www.uniqlo.com/jp/ja/search?q=ボーダー%20長袖&path=1072%2C1750%2C1769%2C3880&colorCodes=COL00%2CCOL01&sizeCodes=SMA004&storeId=101120&inventoryCondition=1
     - product_name: ズボン
       candidates:
-      - name: ユニクロ スキニーフィットジーンズ
-        url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スキニー&path=1072%2C1751%2C1781%2C1873&colorCodes=COL09&sizeCodes=INS032%2CINS031%2CINS033%2CINS034&storeId=101120&inventoryCondition=1
       - name: ユニクロ スリムフィットジーンズ
         url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スリム&path=1072%2C1751%2C1781%2C1877&sizeCodes=INS031%2CINS032%2CINS033%2CINS034
+      - name: ユニクロ スキニーフィットジーンズ
+        url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スキニー&path=1072%2C1751%2C1781%2C1873&colorCodes=COL09&sizeCodes=INS032%2CINS031%2CINS033%2CINS034&storeId=101120&inventoryCondition=1
     - product_name: スポーツ用シャツ
       candidates:
       - name: ユニクロ ドライEXクルーネックTシャツ(半袖)
@@ -538,12 +538,46 @@ genres:
         url: https://www.uniqlo.com/jp/ja/search?q=ソックス%20フィンガー&path=1072%2C1752%2C1787%2C3928&colorCodes=COL09&sizeCodes=MSC025&storeId=101120&inventoryCondition=1
     - product_name: ハンカチ
       candidates:
-      - name: 汎用品 ドット柄(タオル素材は除く)
-        url: https://shopping.yahoo.co.jp/search?first=1&ss_first=1&ts=1676905116&mcr=3b26ce8a4aec9ee915a6f61840b5e82b&X=12&cid=22718&kspec=E413AE46052&tab_ex=commerce&pview=1&used=2&area=12&astk=&aq=&oq=&p=-タオル+ドット&sretry=1
+      - name: カルバン・クライン ハンカチーフ
+        url: https://www.amazon.co.jp/dp/B097Y7ZD1J/
     - product_name: AppleWatch バンド
       candidates:
-      - name: Apple 45mm ブラック バンド(ソロループ:6)
-        url: https://www.apple.com/jp/shop/watch/bands/apple-watch-45mm-ブラック
+      - name: Apple 45mmケース用ミッドナイトスポーツループ
+        url: https://www.apple.com/jp/shop/product/MT593FE/A
+    - product_name: 手袋
+      candidates:
+      - name: ヒートテック ライナーファンクショングローブ
+        url: https://www.uniqlo.com/jp/ja/search?q=手袋&path=1072%2C1754%2C51074%2C&colorCodes=COL09&sizeCodes=SMA005&storeId=101330&inventoryCondition=1
+    - product_name: マフラー・ネックウォーマー
+      candidates:
+      - name: ネックゲイター
+        url: https://www.uniqlo.com/jp/ja/men/accessories/mufflers-and-neck-warmers/neck-gaiters-neck-warmers?path=%2C%2C32460%2C32537&colorCodes=COL09&storeId=101330&inventoryCondition=1&categoryId=32460
+  衣類(長寿命):
+    items:
+    - product_name: チェスターコート
+      candidates:
+      - name: ウールカシミヤ チェスターコート
+        url: https://www.uniqlo.com/jp/ja/search?q=チェスターコート&path=1072%2C1749%2C1757%2C&colorCodes=COL09&sizeCodes=SMA003&storeId=101330&inventoryCondition=1
+    - product_name: ダウンパーカ・ミリタリージャケット
+      candidates:
+      - name: ハイブリッドダウンパーカ
+        url: https://www.uniqlo.com/jp/ja/search?q=ダウンパーカ&path=1072%2C1749%2C46922%2C46945&colorCodes=COL09&sizeCodes=SMA003&storeId=101330&inventoryCondition=1
+    - product_name: ジャケット
+      candidates:
+      - name: ストレッチウールスリムジャケット
+        url: https://www.uniqlo.com/jp/ja/search?q=ウール%20スリム%20ジャケット&path=1072%2C1749%2C2450%2C3826&colorCodes=COL09&storeId=101330&inventoryCondition=1
+    - product_name: ベスト
+      candidates:
+      - name: Vネック ベスト
+        url: https://www.uniqlo.com/jp/ja/search?q=ベスト&path=1072%2C1750%2C%2C&colorCodes=COL09&sizeCodes=SMA004&storeId=101330&inventoryCondition=1
+    - product_name: パーカ
+      candidates:
+      - name: ドライストレッチスウェットフルジップパーカ
+        url: https://www.uniqlo.com/jp/ja/search?q=スウェット%20フルジップ%20パーカ&path=1072%2C1750%2C1768%2C2495&colorCodes=COL09&sizeCodes=SMA004&storeId=101330&inventoryCondition=1
+    - product_name: スラックス
+      candidates:
+      - name: ストレッチウールスリムフィットパンツ
+        url: https://www.uniqlo.com/jp/ja/search?q=ウール%20スリム%20スラックス&path=1072%2C1751%2C1782%2C3902&colorCodes=COL09&storeId=101330&inventoryCondition=1
   その他:
     items:
     - product_name: 電池(CR123A)
