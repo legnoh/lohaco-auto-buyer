@@ -286,6 +286,10 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/w610318
     - product_name: ボディソープ
       candidates:
+      - name: MARO17 ボディソープ パーフェクトウォッシュ 詰替 400ml
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/eh05313/
+      - name: MARO17 ボディソープ パーフェクトウォッシュ 本体 400ml
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/eh05312/
       - name: 大塚製薬 ULOS スキンウォッシュ 500ml
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/4583546
     - product_name: 洗顔料
