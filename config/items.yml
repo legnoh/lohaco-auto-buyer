@@ -2,7 +2,7 @@
 # ジャンル名・商品名にスラッシュを使うとエラーになるので利用しないこと。
 
 genres:
-  食品:
+  食品(加工食品・非日配品):
     items:
     - product_name: 米
       candidates:
@@ -10,8 +10,8 @@ genres:
         url: https://lohaco.yahoo.co.jp/search?p=ろはこ米%20無洗米&X=2&used&uIv=on&categoryId=58068&sort=%2Bprice
     - product_name: パン(完全食)
       candidates:
-      - name: BASE BREAD メープル(50袋)
-        url: https://shop.basefood.co.jp/mypage/subscription
+      - name: BASE BREAD
+        url: https://shop.basefood.co.jp/products/basebread/
     - product_name: パスタ
       candidates:
       - name: 日清製粉ウェルナ マ・マー スパゲティ 1.6mm (300g) 3個
@@ -40,34 +40,28 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/5889916
       - name: 東洋ナッツ食品 素焼きアーモンド(25袋)
         url: https://www.amazon.co.jp/dp/B017LW6HL0/
-    - product_name: 麦茶
+    - product_name: 麦茶(ボトル)
       candidates:
-      - name: 伊藤園 香り薫るむぎ茶 ティーバッグ
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1649214
-      - name: 金沢大地 国産有機六条大麦茶 ティーバッグ
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j834703
-    - product_name: 緑茶
+      - name: コカ・コーラ 爽健美茶 健康素材の麦茶 600mlx24本
+        url: https://www.amazon.co.jp/dp/B06XT4CMLJ
+      - name: サントリー やさしい麦茶 ラベルレス 680mlx24本
+        url: https://www.amazon.co.jp/dp/B09VGGRVDP/
+      - name: アサヒ飲料 十六茶麦茶 ラベルレス 660mlx24本
+        url: https://www.amazon.co.jp/dp/B085J5914D/
+      - name: コカ・コーラ やかんの麦茶 ラベルレス 650mlx24本
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/px99602
+      - name: 伊藤園 健康ミネラルむぎ茶 ラベルレス 600mlx24本
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ah85833
+    - product_name: 紅茶(ティーバッグ)
       candidates:
-      - name: 宇治の露製茶 伊右衛門 カフェインレス 緑茶スティック(30本入)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/kr46603
-    - product_name: 紅茶
+      - name: トワイニング ティーバッグ ザ・ベストファイブ 1箱(50バッグ入)
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j830479/
+    - product_name: 紅茶(ティーバッグ/カフェインレス)
       candidates:
+      - name: トワイニング カフェインレス アールグレイ ティーバッグ 40g 1箱(20バッグ入)
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2664289
       - name: 日東紅茶 カフェインレス アールグレイ(20バッグ)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/kr45706
-      - name: 日東紅茶 カフェインレス オリジナルブレンド(20バッグ)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/x909649
-    - product_name: コーヒー
-      candidates:
-      - name: ネスカフェ ゴールドブレンド カフェインレス(詰替)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1587541
-      - name: ネスカフェ ブラックスティック セレクション 1箱 13本入
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/nw69881
-    - product_name: 乳酸菌飲料
-      candidates:
-      - name: アサヒ飲料 届く強さの乳酸菌W ラベルレスボトル 100ml 30本入
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ae08384
-      - name: アサヒ飲料 届く強さの乳酸菌W 200ml 24本入
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/pk71481
     - product_name: 塩
       candidates:
       - name: 味の素 やさしお 100g
@@ -124,8 +118,6 @@ genres:
         url: https://www.amazon.co.jp/-/en/dp/B005UJ178U/
       - name: 小林製薬 ハッキリエースa(30包)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8883406
-      - name: ジョンソン・エンド・ジョンソン タイレノールA(20錠)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8937955
       - name: ライオン バファリン ルナJ(12錠)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2630594
     - product_name: 胃腸薬(食べ過ぎ用)
@@ -201,21 +193,27 @@ genres:
     - product_name: メモ帳
       candidates:
       - name: マルマン クロッキーパッド 白クロッキー紙 A5
-        url: "https://www.amazon.co.jp/dp/B0746C742B"
+        url: https://www.amazon.co.jp/dp/B0746C742B
+      - name: コクヨ ソフトリングノート A7 メ-SV477S5-D
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/xk30929/
     - product_name: ボールペン(黒)
       candidates:
-      - name: ぺんてる Calme 0.5mm ブラック軸 黒 BXA105A-A 
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/wn35681
+      - name: 三菱鉛筆 油性ボールペン 3&bC Pt7 0.7 限定 sumi 3BCPT7.243&bC
+        url: https://www.amazon.co.jp/gp/product/B08Z743KL5/
+      - name: 三菱鉛筆 油性ボールペン パワータンク スタンダード 0.5mm 黒 SN200PT05.24
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/we86765/
     - product_name: マジック(黒)
       candidates:
-      - name: ゼブラ マッキーケア 細字/極細 黒(アスクルオリジナル)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/wx73979
-      - name: ゼブラ マッキーケア 細字/極細 黒
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/we86350
+      - name: ゼブラ マッキーケア極細 つめ替えタイプ 黒 YYTS5-BK
+        url: https://www.yodobashi.com/product-detail/100000001001576981/
     - product_name: マジック(赤)
       candidates:
-      - name: ゼブラ マッキーケア 細字/極細 赤(アスクルオリジナル)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j373201
+      - name: ゼブラ マッキーケア極細 つめ替えタイプ 赤 YYTS5-R
+        url: https://www.yodobashi.com/product-detail/100000001001576983/
+    - product_name: マジック(青)
+      candidates:
+      - name: ゼブラ マッキーケア極細つめ替えタイプ 青 YYTS5-BL
+        url: https://www.yodobashi.com/product-detail/100000001001576983/
     - product_name: 筆ペン
       candidates:
       - name: ぺんてる 慶弔サインペン 黒・うす墨 XSESWP25
@@ -368,6 +366,10 @@ genres:
       candidates:
       - name: P&G レノアハピネス 夢ふわタッチ 上品で心地よいホワイトティーの香り 1400ml
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/wk68833
+      - name: 花王 ハミング消臭実感 自動投入専用 澄みきったリフレッシュグリーンの香り 700ml
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/he86022/
+      - name: 花王 ハミング消臭実感 自動投入専用 ふわりローズ＆フローラルの香り 700ml
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/he86025/
     - product_name: おしゃれ着洗剤
       candidates:
       - name: ライオン アクロン スマートケア グリーンシトラスの香り 820ml
@@ -412,48 +414,48 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/9817890
       - name: ジョンソン スクラビングバブル トイレスタンプ 贅沢フレグランス アロマティックサボンの香り(2本入)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2796519
+    - product_name: 床用洗剤
+      candidates:
+      - name: アイロボット 床拭きロボット ブラーバジェット床用洗剤 4632816
+        url: https://www.yodobashi.com/product-detail/100000001004828353/
   紙類・掃除用品:
     items:
     - product_name: ゴミ袋
       candidates:
-      - name: 日本サニパック とって付きゴミ袋 半透明高密度タイプ 30L 20枚入り
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1478995
-      - name: 日本技研工業 とって付きゴミ袋 半透明 30L 20枚入り
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j934473
+      - name: 日本サニパック 業務用ポリ袋 白半透明 厚手 45L 30枚入 厚さ0.03mm
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j934449/
     - product_name: ティッシュ(箱)
       candidates:
       - name: 日本製紙クレシア スコッティ 200組(5箱入)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2059606
-      - name: 日本製紙クレシア スコッティ 200組(5箱入x2)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2064400
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/n887219
       - name: アスクル ティッシュペーパー MOCHA 200組(5箱入)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/aa76740
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/u214059
+      - name: ロハコオリジナルソフトパックティッシュ ソフトフィオナ 150組(5個入)
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j283659
     - product_name: ティッシュ(ポケット)
       candidates:
       - name: 日本製紙クレシア スコッティカシミヤ ポケット(4個)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ha22786
     - product_name: ティッシュ(ウェット)
       candidates:
-      - name: 日本製紙クレシア スコッティ ウェットティシュー ノンアルコール 携帯用(3個) 
+      - name: 日本製紙クレシア スコッティ ウェットティシュー ノンアルコール 携帯用 50枚(3個) 
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ar32167
-      - name: 日本製紙クレシア スコッティ ウェットティシュー ノンアルコール 携帯用(5個) 
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ar32170
+      - name: 日本製紙クレシア スコッティ ウェットティシュー ノンアルコール 携帯用 33枚(3個) 
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/x602651
     - product_name: ティッシュ(液晶用)
       candidates:
-      - name: エレコム ウェットティッシュ 液晶用 15枚入 WC-DP15PN4
-        url: https://www.amazon.co.jp/dp/B07Y3F494M/
-      - name: エレコム ウェットティッシュ 液晶用 50枚入 WC-DP50N4
-        url: https://www.amazon.co.jp/dp/B07Y3FSY7J/
+      - name: エレコム ウェットティッシュ 液晶用 15枚 WC-DP15PN4
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej89418/
+      - name: エレコム ウェットティッシュ 液晶用 大判 20枚 WC-DP20LP4
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej89423/
     - product_name: 紙ふきん・雑巾
       candidates:
-      - name: 日本製紙クレシア スコッティファイン 洗って使えるペーパータオル 無地 70カット1ロール
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/u370815
-      - name: 日本製紙クレシア スコッティファイン 洗って使えるペーパータオル プリント 60カット1ロール
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ar75916
       - name: 日本製紙クレシア ペーパータオル クレシアEFハンドタオル ソフトタイプ200 スリムEX
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/u232452
-      - name: 日本製紙クレシア キムタオル ホワイト 4つ折り 1束
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1642142
+      - name: アスクル ペーパータオル リサイクル(FSC認証紙) 中判・シングル 200枚入 x 5個
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/u855772/
+      - name: アスクル オリジナルペーパータオル パルプ100%(PEFC認証紙) 中判・シングル 200枚入x 5個
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/u806902/
     - product_name: トイレットペーパー
       candidates:
       - name: 日本製紙クレシア スコッティ フラワーパック ナチュラル 75m 4ロール
@@ -476,10 +478,6 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/5598801
       - name: ニトムズ コロコロ フロアクリン オレンジラインなし 45周(3巻入)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/J679596
-    - product_name: アイマスク
-      candidates:
-      - name: 花王 めぐりズム 蒸気でホットアイマスク 無香料(12枚入) 
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j930212
     - product_name: 手袋(作業用)
       candidates:
       - name: アトム 天然ゴム背抜き手袋 タフレッドスリム Lサイズ
@@ -490,6 +488,10 @@ genres:
         url: https://www.amazon.co.jp/dp/B01BPNL4Y6/
       - name: エレコム クリーニングブラシ KBR-011WH
         url: https://www.amazon.co.jp/dp/B01BPNL5B8/
+    - product_name: ルンバコンボ 消耗品
+      candidates:
+      - name: アイロボット 交換パーツキット 4812263
+        url: https://store.shopping.yahoo.co.jp/irobotstore-jp/4812263.html
     - product_name: フェイスタオル
       candidates:
       - name: 無印良品 ふっくらパイルフェイスタオル
@@ -536,10 +538,6 @@ genres:
       candidates:
       - name: カルバン・クライン ハンカチーフ
         url: https://www.amazon.co.jp/dp/B097Y7ZD1J/
-    - product_name: AppleWatch バンド
-      candidates:
-      - name: Apple 45mmケース用ミッドナイトスポーツループ
-        url: https://www.apple.com/jp/shop/product/MT593FE/A
     - product_name: 手袋
       candidates:
       - name: ヒートテック ライナーファンクショングローブ
@@ -574,6 +572,10 @@ genres:
       candidates:
       - name: ストレッチウールスリムフィットパンツ
         url: https://www.uniqlo.com/jp/ja/search?q=ウール%20スリム%20スラックス&path=1072%2C1751%2C1782%2C3902&colorCodes=COL09&storeId=101330&inventoryCondition=1
+    - product_name: アイマスク
+      candidates:
+      - name: MYTREX Eye Air
+        url: https://store.shopping.yahoo.co.jp/s-pln/mtea19-br.html
   その他:
     items:
     - product_name: 電池(CR123A)
@@ -592,6 +594,14 @@ genres:
       candidates:
       - name: ユニックス 樹脂製角型レジスター 静電フィルター トレフィン TF150A-PRP TF100A-PRP
         url: https://www.amazon.co.jp/dp/B08BS6HRRW/
+    - product_name: "加湿器: フィルター"
+      candidates:
+      - name: ダイニチ 加湿器フィルター カンタン取替えフィルター 2個入
+        url: https://www.amazon.co.jp/dp/B0C8HD77PL
+    - product_name: "加湿器: 抗菌アタッチメント"
+      candidates:
+      - name: 加湿器 Ag+抗菌アタッチメントEX-K H011502
+        url: https://www.amazon.co.jp/dp/B07Z9W5S8Y
     # - product_name: 
     #   candidates:
     #   - name: 
