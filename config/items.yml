@@ -34,12 +34,10 @@ genres:
         url: https://store.shopping.yahoo.co.jp/ever-shop/4901231052201.html
       - name: 伊藤ハム サラダチキン プレーン 10袋
         url: https://store.shopping.yahoo.co.jp/ever-shop/4901231927820.html
-    - product_name: ナッツ
+    - product_name: 菓子
       candidates:
-      - name: 東洋ナッツ食品 素焼きミックスナッツ(25袋)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/5889916
-      - name: 東洋ナッツ食品 素焼きアーモンド(25袋)
-        url: https://www.amazon.co.jp/dp/B017LW6HL0/
+      - name: ルコラ グルテンフリー国産大豆フィナンシェ プレーン 10個
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/hr14513
     - product_name: 麦茶(ボトル)
       candidates:
       - name: コカ・コーラ 爽健美茶 健康素材の麦茶 600mlx24本
@@ -112,19 +110,21 @@ genres:
     items:
     - product_name: 解熱鎮痛薬
       candidates:
-      - name: 第一三共ヘルスケア ロキソニンSプレミアム(12錠)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2751750
-      - name: 大塚製薬 ナロン錠(24錠)
-        url: https://www.amazon.co.jp/-/en/dp/B005UJ178U/
-      - name: 小林製薬 ハッキリエースa(30包)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8883406
-      - name: ライオン バファリン ルナJ(12錠)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2630594
-    - product_name: 胃腸薬(食べ過ぎ用)
+      - name: 第一三共ヘルスケア ロキソニンS クイック 12錠
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ar80786
+      - name: 第一三共ヘルスケア ロキソニンS クイック 12錠
+        url: https://www.amazon.co.jp/dp/B099ZWYXD6
+      - name: 大正製薬 ナロンLoxy 12錠
+        url: https://www.amazon.co.jp/dp/B0919KVX8L
+    - product_name: 胃腸薬(食べ過ぎ)
       candidates:
       - name: 第一三共ヘルスケア 第一三共胃腸薬 プラス 細粒(12包)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8879708
-    - product_name: 胃腸薬(逆流性食道炎対策)
+    - product_name: 胃腸薬(食欲不振・緊急用)
+      candidates:
+      - name: 小林製薬 ギャクリア 10包
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8879708
+    - product_name: 胃腸薬(呑酸・緊急用)
       candidates:
       - name: 第一三共ヘルスケア ガスター10 S錠(12錠)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8879851
@@ -246,8 +246,8 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ww84558
     - product_name: 瞬間接着剤
       candidates:
-      - name: コニシ アロンアルフア プロ用No.5 20g
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8826212
+      - name: コニシ アロンアルフア EXTRA速効多用途スリム 04613 2g
+        url: https://www.amazon.co.jp/dp/B000IGXN5A
     - product_name: はさみ
       candidates:
       - name: プラス フィットカットカーブ フッ素加工・3D刃 ホワイト
@@ -348,14 +348,18 @@ genres:
         url: https://www.amazon.co.jp/dp/B08G18S3XK/
     - product_name: シェーバー(替え刃・外)
       candidates:
-      - name: パナソニック ラムダッシュ 替刃(一体型セット刃) ES9600(毎1.5年)
-        url: https://shopping.yahoo.co.jp/product/j/4549980490822/
-      - name: パナソニック ラムダッシュ 替刃(一体型セット刃) ES9600(毎1.5年)
-        url: https://www.amazon.co.jp/dp/B093BSHDWM/
+      - name: パナソニック シェーバー替刃(外刃) ES9181 (毎年4月)
+        url: https://store.shopping.yahoo.co.jp/y-kojima/4549980490846.html
+      - name: パナソニック シェーバー替刃(内刃) ES9170 (偶数年4月)
+        url: https://store.shopping.yahoo.co.jp/y-kojima/4547441920635.html
     - product_name: エチケットカッター(替え刃)
       candidates:
-      - name: パナソニック エチケットカッター用替刃 ER9972-K(毎3年)
+      - name: パナソニック エチケットカッター用替刃 ER9972-K(3n年2月)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/p714574
+    - product_name: マユシェーバー(替え刃)
+      candidates:
+      - name: パナソニック フェリエ マユ用刃 F-67(刃ブロック) ES9256(毎年6月)
+        url: https://www.amazon.co.jp/dp/B0000C9I6C
     - product_name: ボディタオル
       candidates:
       - name: ロハコ ボディタオル やわらかめ
@@ -368,12 +372,10 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/nh74351
     - product_name: 柔軟剤
       candidates:
-      - name: P&G レノアハピネス 夢ふわタッチ 上品で心地よいホワイトティーの香り 1400ml
+      - name: P&G レノアハピネス 夢ふわタッチ 上品で心地よいホワイトティーの香り 超特大 1220ml
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/wk68833
-      - name: 花王 ハミング消臭実感 自動投入専用 澄みきったリフレッシュグリーンの香り 700ml
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/he86022/
-      - name: 花王 ハミング消臭実感 自動投入専用 ふわりローズ＆フローラルの香り 700ml
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/he86025/
+      - name: P&G レノアハピネス 夢ふわタッチ 上品で心地よいホワイトティーの香り 超特大 1220ml(2個)
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/wk68839
     - product_name: おしゃれ着洗剤
       candidates:
       - name: ライオン アクロン スマートケア グリーンシトラスの香り 820ml
@@ -420,8 +422,8 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2796519
     - product_name: 床用洗剤
       candidates:
-      - name: アイロボット 床拭きロボット ブラーバジェット床用洗剤 4632816
-        url: https://www.yodobashi.com/product-detail/100000001004828353/
+      - name: アイロボット 床用洗剤 4632816
+        url: https://store.shopping.yahoo.co.jp/irobotstore-jp/4632816.html
   紙類・掃除用品:
     items:
     - product_name: ゴミ袋
@@ -494,6 +496,14 @@ genres:
         url: https://www.amazon.co.jp/dp/B01BPNL5B8/
     - product_name: ルンバコンボ 消耗品
       candidates:
+      - name: アイロボット ダストカットフィルター(3個) 4651374
+        url: https://store.shopping.yahoo.co.jp/irobotstore-jp/4651374.html
+      - name: アイロボット 紙パック(3枚) 4648034
+        url: https://store.shopping.yahoo.co.jp/irobotstore-jp/4648034.html
+      - name: アイロボット エッジクリーニングブラシ(3個) 4747487
+        url: https://store.shopping.yahoo.co.jp/irobotstore-jp/4747487.html
+      - name: アイロボット デュアルアクションブラシ 4734806
+        url: https://store.shopping.yahoo.co.jp/irobotstore-jp/4734806.html
       - name: アイロボット 交換パーツキット 4812263
         url: https://store.shopping.yahoo.co.jp/irobotstore-jp/4812263.html
     - product_name: フェイスタオル
@@ -578,34 +588,46 @@ genres:
         url: https://www.uniqlo.com/jp/ja/search?q=ウール%20スリム%20スラックス&path=1072%2C1751%2C1782%2C3902&colorCodes=COL09&storeId=101330&inventoryCondition=1
     - product_name: アイマスク
       candidates:
-      - name: MYTREX Eye Air
-        url: https://store.shopping.yahoo.co.jp/s-pln/mtea19-br.html
+      - name: バンガード アイマスク Cool Max
+        url: https://www.amazon.co.jp/dp/B09HBXGLWX
   その他:
     items:
+    - product_name: 電池(単3・充電式)
+      candidates:
+      - name: パナソニック エネループプロ 単3形x4 BK-3HCD/4H
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej52301
+    - product_name: 電池(単4・充電式)
+      candidates:
+      - name: パナソニック エネループプロ 単4形x4 BK-4HCD/4H
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej52298
     - product_name: 電池(CR123A)
       candidates:
-      - name: パナソニック CR-123AW/4P
-        url: https://shopping.yahoo.co.jp/search?brandid=1460&X=2&p=CR-123AW%2F4P&ss_first=1&area=12&astk=2&pview=1
+      - name: パナソニック カメラ用リチウム電池 CR-123AW
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej86545
     - product_name: 電池(CR2)
       candidates:
-      - name: パナソニック CR-2W/4P
-        url: https://shopping.yahoo.co.jp/search?brandid=1460&X=2&p=CR-2W%2F4P&ss_first=1&area=12&astk=2&pview=1&prom=1
+      - name: パナソニック カメラ用リチウム電池 CR-2W
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej86548
+    - product_name: 電池(LR44)
+      candidates:
+      - name: パナソニック アルカリボタン電池 LR-44
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/kr51878
     - product_name: 手袋(簡易保護用)
       candidates:
       - name: アスクル 現場のチカラ 品質管理用スムス手袋 Mサイズ 12双入
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/7883466
     - product_name: 通気口用フィルター
       candidates:
-      - name: ユニックス 樹脂製角型レジスター 静電フィルター トレフィン TF150A-PRP TF100A-PRP
+      - name: ユニックス 樹脂製角型レジスター 静電フィルター トレフィン TF150A-PRP TF100A-PRP(毎年5/11月)
         url: https://www.amazon.co.jp/dp/B08BS6HRRW/
     - product_name: "加湿器: フィルター"
       candidates:
       - name: ダイニチ 加湿器フィルター カンタン取替えフィルター 2個入
-        url: https://www.amazon.co.jp/dp/B0C8HD77PL
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej92187/
     - product_name: "加湿器: 抗菌アタッチメント"
       candidates:
-      - name: 加湿器 Ag+抗菌アタッチメントEX-K H011502
-        url: https://www.amazon.co.jp/dp/B07Z9W5S8Y
+      - name: ダイニチ 加湿器 Ag+抗菌アタッチメントEX-K H011502
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/hn79382/
     # - product_name: 
     #   candidates:
     #   - name: 
