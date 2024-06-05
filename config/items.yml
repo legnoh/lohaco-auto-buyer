@@ -123,7 +123,7 @@ genres:
     - product_name: 胃腸薬(食欲不振・緊急用)
       candidates:
       - name: 小林製薬 ギャクリア 10包
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8879708
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1854000
     - product_name: 胃腸薬(呑酸・緊急用)
       candidates:
       - name: 第一三共ヘルスケア ガスター10 S錠(12錠)
@@ -310,12 +310,12 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/9821284
     - product_name: ハンドソープ
       candidates:
-      - name: 花王 ビオレu 泡ハンドソープ シトラスの香り 詰替770ml
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/he80857
-      - name: 花王 ビオレu 泡ハンドソープ 詰替770ml
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/he80858
-      - name: 花王 ビオレu 泡ハンドソープ フルーツの香り 詰替770ml
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/he80850
+      - name: ウォシュボン ハーバル薬用泡ハンドソープ 詰め替え用 500ml
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j979588
+      - name: ウォシュボン ハーバル薬用泡ハンドソープ 詰め替え用 500ml
+        url: https://www.amazon.co.jp/gp/product/B0CFXYHNFF
+      - name: ウォシュボン ハーバル薬用泡ハンドソープ 詰め替え用 1050mlx2
+        url: https://www.amazon.co.jp/gp/product/B0CZLK5FRT
     - product_name: 歯磨き粉
       candidates:
       - name: シュミテクト コンプリートワンEX プレミアム 90g
@@ -330,10 +330,8 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j093346
     - product_name: 歯間ブラシ
       candidates:
-      - name: デンタルコンセプト ドクターズ ブラッシュピックス(40本入)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j284420
-      - name: ライオン システマ 歯間用ブラシ SSS 8本
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1555922
+      - name: 医食同源ドットコム ワンプッシュ糸付きようじ 詰替え用(200本入)
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/hh10526
     - product_name: 制汗剤
       candidates:
       - name: デオナチュレ ソフトストーンW(メントールなし)
@@ -351,7 +349,7 @@ genres:
       - name: パナソニック シェーバー替刃(外刃) ES9181 (毎年4月)
         url: https://store.shopping.yahoo.co.jp/y-kojima/4549980490846.html
       - name: パナソニック シェーバー替刃(内刃) ES9170 (偶数年4月)
-        url: https://store.shopping.yahoo.co.jp/y-kojima/4547441920635.html
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8587525
     - product_name: エチケットカッター(替え刃)
       candidates:
       - name: パナソニック エチケットカッター用替刃 ER9972-K(3n年2月)
@@ -359,7 +357,7 @@ genres:
     - product_name: マユシェーバー(替え刃)
       candidates:
       - name: パナソニック フェリエ マユ用刃 F-67(刃ブロック) ES9256(毎年6月)
-        url: https://www.amazon.co.jp/dp/B0000C9I6C
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/p714555
     - product_name: ボディタオル
       candidates:
       - name: ロハコ ボディタオル やわらかめ
@@ -490,11 +488,9 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1634329
     - product_name: クリーニングブラシ(電気用品用)
       candidates:
-      - name: エレコム クリーニングブラシ 取り替え用ブラシヘッド(2個) KBR-011SP
-        url: https://www.amazon.co.jp/dp/B01BPNL4Y6/
-      - name: エレコム クリーニングブラシ KBR-011WH
-        url: https://www.amazon.co.jp/dp/B01BPNL5B8/
-    - product_name: ルンバコンボ 消耗品
+      - name: エレコム クリーニングブラシ KBR-012AS
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ej89513
+    - product_name: 掃除機ロボットパーツ
       candidates:
       - name: アイロボット ダストカットフィルター(3個) 4651374
         url: https://store.shopping.yahoo.co.jp/irobotstore-jp/4651374.html
