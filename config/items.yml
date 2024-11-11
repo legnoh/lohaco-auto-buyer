@@ -40,30 +40,20 @@ genres:
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/hr14513
     - product_name: 麦茶(ボトル)
       candidates:
-      - name: コカ・コーラ 爽健美茶 健康素材の麦茶 600mlx24本
-        url: https://www.amazon.co.jp/dp/B06XT4CMLJ
+      - name: コカ・コーラ やかんの麦茶 ラベルレス 650mlx24本
+        url: https://www.amazon.co.jp/gp/product/B09TVVN5VN
       - name: サントリー やさしい麦茶 ラベルレス 680mlx24本
         url: https://www.amazon.co.jp/dp/B09VGGRVDP/
       - name: アサヒ飲料 十六茶麦茶 ラベルレス 660mlx24本
         url: https://www.amazon.co.jp/dp/B085J5914D/
-      - name: コカ・コーラ やかんの麦茶 ラベルレス 650mlx24本
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/px99602
-      - name: 伊藤園 健康ミネラルむぎ茶 ラベルレス 600mlx24本
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ah85833
-    - product_name: 紅茶(ティーバッグ)
+    - product_name: コーヒー
       candidates:
-      - name: トワイニング ティーバッグ ザ・ベストファイブ 1箱(50バッグ入)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/j830479/
-    - product_name: 紅茶(ティーバッグ/カフェインレス)
-      candidates:
-      - name: トワイニング カフェインレス アールグレイ ティーバッグ 40g 1箱(20バッグ入)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/2664289
-      - name: 日東紅茶 カフェインレス アールグレイ(20バッグ)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/kr45706
+      - name: サントリー プレミアムボス ブラック 285ml 1箱（24本入）
+        url: https://www.amazon.co.jp/dp/B089GJSBMQ/
     - product_name: 塩
       candidates:
-      - name: 味の素 やさしお 100g
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ae99786
+      - name: 塩事業センター 食卓塩 100g 1個
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1629481/
     - product_name: 醤油
       candidates:
       - name: キッコーマン 大豆ペプチド減塩しょうゆ 200ml
@@ -88,14 +78,10 @@ genres:
       candidates:
       - name: P&G ジョイ W除菌 ミラクルクリーン泡スプレー
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/kx40227
-      - name: P&G ジョイ ミラクルクリーン泡スプレー
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/p289401
     - product_name: スポンジ(食器用)
       candidates:
       - name: 3M スコッチブライト 泡立ちゆたか ソフトスポンジ(グレー)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/x628106
-      - name: 3M スコッチブライト 泡立ちゆたか ソフトスポンジ(グレー・3個)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/x628112
     - product_name: スポンジ(水筒用)
       candidates:
       - name: 3M スコッチブライト ボトル洗いソフトスポンジ(グレー・取り替え用)
@@ -120,10 +106,6 @@ genres:
       candidates:
       - name: 第一三共ヘルスケア 第一三共胃腸薬 プラス 細粒(12包)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/8879708
-    - product_name: 胃腸薬(食欲不振・緊急用)
-      candidates:
-      - name: 小林製薬 ギャクリア 10包
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1854000
     - product_name: 胃腸薬(呑酸・緊急用)
       candidates:
       - name: 第一三共ヘルスケア ガスター10 S錠(12錠)
@@ -135,13 +117,13 @@ genres:
       - name: 久光製薬 アレグラFX 14錠
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1997808
       - name: 第一三共ヘルスケア エージーノーズ アレルカットM 15ml
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/1290676
+        url: https://www.amazon.co.jp/dp/B0CLRG877F
     - product_name: 酔い止め薬
       candidates:
       - name: エスエス製薬 アネロン ニスキャップ(6カプセル)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/9457178
-      - name: エスエス製薬 アネロン ニスキャップ(9カプセル)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/9457196
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ep81485/
+      - name: エスエス製薬 アネロン ニスキャップ(10カプセル)
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ep81486/
     - product_name: 口内炎用の薬
       candidates:
       - name:  第一三共ヘルスケア トラフル錠 24錠
@@ -180,8 +162,6 @@ genres:
       candidates:
       - name: 大王製紙 エリカラ グレー ふつうサイズ(30枚入)
         url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/au50527
-      - name: ユニ・チャーム 超快適マスク やや大きめ(50枚入)
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/ax34156
     - product_name: メガネのくもり止め
       candidates:
       - name: 小林製薬 メガネクリーナふきふき(20包)
@@ -367,7 +347,7 @@ genres:
     - product_name: 衣類用洗剤
       candidates:
       - name: ライオン トップ スーパーNANOX 自動投入洗濯機専用 洗剤 850g
-        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/nh74351
+        url: https://lohaco.yahoo.co.jp/store/h-lohaco/item/xu22702/
     - product_name: 柔軟剤
       candidates:
       - name: P&G レノアハピネス 夢ふわタッチ 上品で心地よいホワイトティーの香り 超特大 1220ml
@@ -511,13 +491,13 @@ genres:
     - product_name: シャツ
       candidates: 
       - name: ユニクロ オックスフォードシャツ
-        url: https://www.uniqlo.com/jp/ja/search?q=オックスフォード%20シャツ%20長袖&path=1072%2C1750%2C5593%2C5604&sizeCodes=SMA004&storeId=101120&inventoryCondition=1
+        url: https://www.uniqlo.com/jp/ja/search?q=オックスフォード&path=1072%2C94391%2C94393%2C
       - name: ユニクロ ボーダーシャツ
         url: https://www.uniqlo.com/jp/ja/search?q=ボーダー%20長袖&path=1072%2C1750%2C1769%2C3880&colorCodes=COL00%2CCOL01&sizeCodes=SMA004&storeId=101120&inventoryCondition=1
     - product_name: ズボン
       candidates:
       - name: ユニクロ スリムフィットジーンズ
-        url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スリム&path=1072%2C1751%2C1781%2C1877&sizeCodes=INS031%2CINS032%2CINS033%2CINS034
+        url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スリム&path=1072%2C1751%2C1781%2C1877&colorCodes=COL09&sizeCodes=INS031%2CINS032%2CINS033%2CINS034
       - name: ユニクロ スキニーフィットジーンズ
         url: https://www.uniqlo.com/jp/ja/search?q=ジーンズ%20スキニー&path=1072%2C1751%2C1781%2C1873&colorCodes=COL09&sizeCodes=INS032%2CINS031%2CINS033%2CINS034&storeId=101120&inventoryCondition=1
     - product_name: スポーツ用シャツ
