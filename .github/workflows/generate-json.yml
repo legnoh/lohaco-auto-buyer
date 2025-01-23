@@ -1,34 +1,35 @@
 name: Generate JSON File
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   generate_json:
     name: Generate JSON Files
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Install pipenv
-        run: pipx install pipenv
-      - name: Setup Python
-        uses: actions/setup-python@v5
+
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
         with:
-          python-version: '3.x'
-          cache: pipenv
+          enable-cache: true
+
       - name: Install dependencies
-        run: pipenv install
+        run: uv sync --frozen
+
       - name: Add Cart
         env:
           TZ: "Asia/Tokyo"
-        run: pipenv run generate_json
+        run: uv run generate_json.py
+
       - name: Commit files
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
           git add --all
           git commit -m "[skip ci] Update ./items/* files" || echo "Nothing to update"
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

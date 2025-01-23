@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Python: generate_json",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "generate_json.py",
             "console": "integratedTerminal",

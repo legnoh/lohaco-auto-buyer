@@ -21,7 +21,7 @@ for genre_name, genre in config['genres'].items():
     lists[genre_name] = {}
     urls[genre_name] = {}
     for item in genre['items']:
-        os.makedirs('./items/{genre}/{product}'.format(genre=genre_name,product=item['product_name']), exist_ok=True)
+        os.makedirs(f"./items/{genre_name}/{item['product_name']}", exist_ok=True)
         if index_genre_value != "":
             index_genre_value += ","
         index_genre_value += item['product_name']
@@ -29,7 +29,7 @@ for genre_name, genre in config['genres'].items():
         urls[genre_name][item['product_name']] = {}
         i = 1
         for candidate in item['candidates']:
-            with open('./items/{genre}/{product}/{i}'.format(genre=genre_name, product=item['product_name'],i=i), 'w') as s:
+            with open(f"./items/{genre_name}/{item['product_name']}/{i}", 'w') as s:
                 s.write(candidate['url'])
             urls[genre_name][item['product_name']][candidate['name']] = candidate['url']
             i += 1
@@ -39,11 +39,11 @@ for genre_name, genre in config['genres'].items():
 with open('items/index.json', 'w') as s:
     json.dump(genres, s, indent=2)
 for genre, value in lists.items():
-    with open('items/{genre}/index.json'.format(genre=genre), 'w') as s:
+    with open(f"items/{genre}/index.json", 'w') as s:
         json.dump(lists[genre], s, indent=2)
 
 # write urls text file
 for genre, products in urls.items():
     for product_name, candidates in products.items():
-        with open('./items/{genre}/{product}/index.json'.format(genre=genre, product=product_name), 'w') as s:
+        with open(f"./items/{genre}/{product_name}/index.json", 'w') as s:
             json.dump(candidates, s, indent=2)
